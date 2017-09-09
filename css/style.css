@@ -189,6 +189,7 @@ section h5 a:hover, section h5 a:focus{
 .card-block .col-md-12{
     float: none;
 }
+
 @media (max-width: 769px){
     .card-block .col-md-10{
     margin-left:0;
