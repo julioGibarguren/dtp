@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+   
 }
 ul{
     margin:0;
@@ -196,6 +197,9 @@ section h5 a:hover, section h5 a:focus{
     float:none;
 }
 }
+.areas{
+     outline:none;
+}
 .services, .areas, .accordeon h3{
     text-align: center;
     
@@ -241,37 +245,34 @@ height: 100%;
 .video-responsive a i{
         float: left;
 }
-.areas .col-md-2{
+.areas .col-md-3{
     text-align: left;
     border-right: 1px solid #5D856C;
     min-height: 330px;
     position: relative;
 }
-.areas .col-md-2 img{
+.areas .col-md-3 img{
     width: 100%;
     margin-bottom: 10px;
 }
-.areas .col-md-2 h4{
+.areas .col-md-3 h4{
     text-align: left;
     margin: 10px 0;
 }
-.areas .col-md-2 a i{
+.areas .col-md-3 a i{
     position: absolute;
     bottom: 0;
     right:10px;
     color: #5D856C;
 }
 @media(max-width:768px){
-.areas .col-md-2{
+.areas .col-md-3{
             width: 100%;
             border:none;
     }
 }
 @media (min-width:769px){
-    .areas .col-md-2{
-            width: 20%;
-            
-    }
+
     .navbar-right{
         margin-right:0;
     }
@@ -308,4 +309,64 @@ footer p{
     color: white;
     
 
+}
+.back-to-top{
+        float: right;
+    color: white;
+    margin: 43px 10px 10px 0;
+    display:none;
+}
+.about-list ul li{
+    margin-left: 14px;
+    list-style: circle;
+}
+.main-section.services{
+    min-height: inherit !important;
+}
+
+.main-section.services .col-md-4 a{
+    display: block;
+    margin: 0 auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 180px;
+    transition: all 0.7s ease;
+}
+.main-section.services .col-md-4 a.explore{
+        background-image: url(../img/01.jpg);
+}
+.main-section.services .col-md-4 a.explore:hover{
+        background-image: url(../img/01-active.jpg);
+}
+.main-section.services .col-md-4 a.petro{
+        background-image: url(../img/02.jpg);
+}
+.main-section.services .col-md-4 a.petro:hover{
+        background-image: url(../img/02-active.jpg);
+}
+.main-section.services .col-md-4 a.ambiente{
+        background-image: url(../img/03.jpg);
+}
+.main-section.services .col-md-4 a.ambiente:hover{
+        background-image: url(../img/03-active.jpg);
+}
+.back-button{
+    position:fixed;
+    right:15px;
+    bottom: 50px;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0 3px 2px rgba(0,0,0,0.3);
+    transition: all 0.5s ease;
+    padding:7px;
+    cursor:pointer;
+    display:none;
+    z-index:1000;
+}
+.back-button:hover{
+    box-shadow: 0 6px 4px rgba(0,0,0,0.3);
+}
+.back-button i{
+    color:#283B2F;
 }
