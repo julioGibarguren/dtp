@@ -113,6 +113,9 @@ header{
         float: left;
     padding-top: 7px;
 }
+    .navbar-brand>img{
+        width: 100%;
+    }
 @media(max-width: 768px){
     .navbar-brand>img{
         width: 100%;
@@ -122,6 +125,16 @@ header{
         width: 109px
     }
 }
+.navbar-brand{
+    float: left;
+    height: auto;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    display: block;
+    max-width: 190px;
+}
+
 section{
     padding: 30px 0;
     clear:both;
@@ -159,7 +172,7 @@ section h5 a:hover, section h5 a:focus{
     background:#283B2F;
 }
 .card{
-    border-bottom:1px solid;
+    border-top:1px solid;
     clear:both;
 }
 .card-header h5 a{
@@ -167,14 +180,19 @@ section h5 a:hover, section h5 a:focus{
 }
 .card-block{
     padding: 20px 30px;
-    min-height: 280px;
+
+}
+.collapse.in {
+    outline: none;
 }
 .card-block img{
-    max-height: 254px;
     width: 100%;
 }
 .card-block p img{
     width:auto;
+}
+.card-block .col-md-4{
+    padding: 0 15px 21px 15px; 
 }
 @media(max-width:769px){
     .card-block img{
@@ -369,4 +387,10 @@ footer p{
 }
 .back-button i{
     color:#283B2F;
+}
+.elementos{
+    background: #f2f2f2;
+    
+    min-height: 120px;
+    padding: 10px;
 }
