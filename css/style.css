@@ -340,6 +340,7 @@ footer p{
 }
 .main-section.services{
     min-height: inherit !important;
+    outline: none;
 }
 
 .main-section.services .col-md-4 a{

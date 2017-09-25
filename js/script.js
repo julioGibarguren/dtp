@@ -45,6 +45,7 @@ $(document).ready(function(){
     var viewHeight = winHeight - 222;
     console.log(viewHeight);
     $(".main-section").css({minHeight:viewHeight});
+    
 });
 
 
@@ -57,6 +58,8 @@ $(window).scroll(function (){
     $(".back-button").fadeOut(300);
   }
 });
-
+$('.carousel').carousel({
+      interval: 6000
+    })
 
 

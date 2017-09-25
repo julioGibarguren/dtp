@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="css/carousel.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,7 +45,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">     
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="nosotros.html">SOBRE NOSOTROS</a></li>
-                <li><a href="#areas">AREAS</a></li>
+               <li><a href="index.html#services">SERVICIOS</a></li>
                 <li><a href="clientes.html">CLIENTES</a></li>
                 <li><a href="contacto.html">CONTACTO</a></li>
             </ul>
@@ -58,23 +58,44 @@
   </div><!-- /.container-fluid -->
 
    </header>
-   <div class="header-image-container">
-       <h2>El aliado de su próximo proyecto.</h2>
-  </div>
-   
+   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Carousel indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>   
+    <!-- Wrapper for carousel items -->
+    <div class="carousel-inner">
+        <div class="item active item-01">
+        </div>
+        <div class="item item-02">
+        </div>
+        <div class="item item-03">
+        </div>
+    </div>
+    <!-- Carousel controls -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+
    <div class="main-comtainer">
        <section class="main-section services" id="services">
            <h3>Servicios</h3>
            <div class="col-md-4">
-               <a class="explore" href="exploracion-de-superficie.html"></a>
+               <a class="explore" href="exploracion-de-superficie.html#surface-explore"></a>
                <h4>Exploración de Superficie</h4>
            </div>
            <div class="col-md-4">
-               <a class="petro" href="servicios-petromineros.html"></a>
+               <a class="petro" href="servicios-petromineros.html#petromineros"></a>
                <h4>Servicios para la Industria del Petróleo y Minería</h4>
            </div>
            <div class="col-md-4">
-               <a class="ambiente" href="analisis-y-servicios-ambientales.html"></a>
+               <a class="ambiente" href="analisis-y-servicios-ambientales.html#ambientales"></a>
                <h4>Análisis y Servicios Ambientales</h4>
            </div>
            
@@ -145,5 +166,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/4fc6e77c9f.js"></script>
     <script src="js/script.js"></script>
+
   </body>
 </html>
