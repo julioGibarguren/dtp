@@ -375,7 +375,10 @@ footer p{
     margin: 0 auto;
 }
 
-
+#sobreNosotros p{
+    font-size:20px;
+    text-align:justify;
+}
 .back-button{
     position:fixed;
     right:15px;
