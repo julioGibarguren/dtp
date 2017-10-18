@@ -370,9 +370,9 @@ footer p{
 .main-section.services .col-md-4 a.ambiente:hover{
         background-image: url(../img/03-active.jpg);
 }
-.main-comtainer{
-    max-width:1140px;
-}  
+.main-section {
+    max-width: 1140px;
+}
 
 
 .back-button{
