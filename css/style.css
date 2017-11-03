@@ -37,7 +37,7 @@ input{
     padding:0;
 }
 .header-image-container{
-        background: url(../img/bg.jpg) no-repeat 0 0;
+        background: url(../img/main-bg.jpg) no-repeat 0 0;
     background-size: 100%;
     min-height: 470px; 
 }

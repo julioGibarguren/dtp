@@ -37,7 +37,9 @@ $('a[href*="#"]')
 
 $(".mb-0").click(
     function(){
-        $(this).toggleClass("active");
+        $(".mb-0").removeClass("active");
+        $(this).addClass("active");
+        
     }
 );
 $(document).ready(function(){

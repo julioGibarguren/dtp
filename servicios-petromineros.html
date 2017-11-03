@@ -36,12 +36,13 @@
                      </div>
                      <!-- Collect the nav links, forms, and other content for toggling -->
                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                           <li><a href="nosotros.html">SOBRE NOSOTROS</a></li>
-                           <li><a href="index.html#services">SERVICIOS</a></li>
-                           <li><a href="clientes.html">CLIENTES</a></li>
-                           <li><a href="contacto.html">CONTACTO</a></li>
-                        </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="index.html">INICIO</a></li>
+                                    <li><a href="index.html#sobreNosotros">SOBRE NOSOTROS</a></li>
+                                   <li><a href="index.html#services">SERVICIOS</a></li>
+                                    <li><a href="clientes.html">CLIENTES</a></li>
+                                    <li><a href="contacto.html">CONTACTO</a></li>
+                                </ul>
                      </div>
                      <!-- /.navbar-collapse -->
                   </div>
@@ -81,19 +82,19 @@
                   <div class="col-md-12">
                      <h3 id="petromineros">Servicios para la Industria del Petróleo y Minería</h3>
                      <hr>
-                     <div id="accordion" role="tablist" aria-multiselectable="true">
+                     <div id="petro-accordion" role="tablist">
                         <div class="card">
                            <div class="card-header" role="tab" id="quimioestratigrafía">
                               <h5 class="mb-0">
-                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                 <a data-toggle="collapse"  href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                  Quimioestratigrafía
                                  </a>
                               </h5>
                            </div>
-                           <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="Quimioestratigrafía">
+                           <div id="collapseOne" class="collapse" data-parent="#petro-accordion" role="tabpanel" aria-labelledby="Quimioestratigrafía">
                               <div class="card-block">
                                  <div class="col-md-4">
-                                    <img src="img/petromineros.jpg" alt="">
+                                    <img src="img/Quimioestratigrafia-Vector.jpg" alt="">
                                    
                                  </div>
                                  <div class="col-md-8">
@@ -102,51 +103,48 @@
                                         se lleva a cabo la cuantificación de los elementos mayoritarios, minoritarios y elementos
                                         traza.                                    
                                     </p>
-                                    <div class="col-md-6 elementos" style="border-right: 1px solid #ccc;">
-                                        <p style="text-transform: uppercase;">
-                                            Elementos mayoritarios y minoritarios:
-                                        </p>
-                                        <p><strong>
-                                            Na – Mg – Al- Si – P – S – K – Ca – Ti</strong>
-                                        </p>
+                                    <div class="col-md-8 elementos" style="border-right: 1px solid #ccc;">
+                                        <img src="img/tabla.jpg" alt="tabla periodica">
                                     </div>
-                                    <div class="col-md-6 elementos">
-                                        <p style="text-transform: uppercase;">
-                                            Elementos traza:
-                                        </p>
-                                        <p><strong>
-                                            V – Cr – Mn – Fe – Ni – Cu – Zn – As – Rb – Sr – Y – Zr – Mo – Cs – Ba – Pb
-– Th – U – Se – REE (La + Ce + Pr + Eu + Gd + Yb + Lu)</strong>
-                                        </p>
-                                    </div>
-                               
-                                    <p style="clear:both;padding-top:10px;font-weight:bold;">
-                                        Aplicaciones:
-                                    </p>
-                                    <ul style="padding-bottom:10px;">
-                                        <li>Correlación detallada entre pozos y afloramientos</li>
-                                        <li>Identificación de quimiolitologías</li>
-                                        <li>Caracterización petrofísica de reservorio</li>
-                                        <li>Modelado geoquímico</li>
-                                        <li>Geoesteering</li>
-                                        <li>Modelado 3D de fragilidad relativa</li>
-                                    </ul>
+                                    <div>
+                                            <p style="clear:both;padding-top:10px;font-weight:bold;">
+                                                    Aplicaciones:
+                                                </p>
+                                                <div class="col-md-6" style="padding-left: 0;">
+                                                        <ul>
+                                                                <li>-Correlación detallada entre pozos y afloramientos</li>
+                                                                <li>-Identificación de quimiolitologías</li>
+                                                                <li>-Caracterización petrofísica de reservorio</li>
+                                                            </ul>
+                                                </div>
+                                                <div class="col-md-6" style="padding-bottom:20px;">
+                                                        <ul>
+                                                                <li>-Modelado geoquímico</li>
+                                                                <li>-Geoesteering</li>
+                                                                <li>-Modelado 3D de fragilidad relativa</li>
+                                                        </ul>
+                                                </div>
+                                                
+                                                
+                                    </div> 
+                                    <br/>
                                  </div>
+                                 
                               </div>
                            </div>
                         </div>
                         <div class="card">
                            <div class="card-header" role="tab" id="geoquimica-organica">
                               <h5 class="mb-0">
-                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                 <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     GEOQUÍMICA DEL PETRÓLEO.
                                  </a>
                               </h5>
                            </div>
-                           <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="geoquimica-organica">
+                           <div id="collapseTwo" class="collapse" data-parent="#petro-accordion"  role="tabpanel" aria-labelledby="geoquimica-organica">
                               <div class="card-block">
                                   <div class="col-md-4">
-                                      <img src="img/geoquimica-organiza.png" alt="">
+                                      <img src="img/geoquimica-del-petroleo.jpg" alt="">
                                   </div>
                                  <div class="col-md-8">
                                     <p>
@@ -166,12 +164,12 @@
                         <div class="card">
                            <div class="card-header" role="tab" id="Sensores remotos">
                               <h5 class="mb-0">
-                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                 <a class="collapsed" data-toggle="collapse"  href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                  Sensores remotos
                                  </a>
                               </h5>
                            </div>
-                           <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="Sensores remotos">
+                           <div id="collapseThree" class="collapse" data-parent="#petro-accordion"  role="tabpanel" aria-labelledby="Sensores remotos">
                               <div class="card-block">
                                  <div class="col-md-4">
                                     <img src="img/sensores-remotos.jpg" alt="">
@@ -190,15 +188,15 @@
                         <div class="card">
                            <div class="card-header" role="tab" id="sulfatoreductoras">
                               <h5 class="mb-0">
-                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#ccollapseFour" aria-expanded="false" aria-controls="ccollapseFour">
+                                 <a class="collapsed" data-toggle="collapse" href="#ccollapseFour" aria-expanded="false" aria-controls="ccollapseFour">
                                  Detección molecular de bacterias sulfatoreductoras
                                  </a>
                               </h5>
                            </div>
-                           <div id="ccollapseFour" class="collapse" role="tabpanel" aria-labelledby="sulfatoreductoras">
+                           <div id="ccollapseFour" class="collapse"  data-parent="#petro-accordion" role="tabpanel" aria-labelledby="sulfatoreductoras">
                               <div class="card-block">
                                  <div class="col-md-4">
-                                    <img src="img/sulfatoreductoras.webp" alt="">
+                                    <img src="img/deteccion-molecular-de-bacterias.jpg" alt="">
                                  </div>
                                  <div class="col-md-8">
                                     <p>
@@ -214,12 +212,12 @@
                         <div class="card">
                            <div class="card-header" role="tab" id="Geotermia">
                               <h5 class="mb-0">
-                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#ccollapseFive" aria-expanded="false" aria-controls="ccollapseFive">
+                                 <a class="collapsed" data-toggle="collapse" href="#ccollapseFive" aria-expanded="false" aria-controls="ccollapseFive">
                                  Geotermia
                                  </a>
                               </h5>
                            </div>
-                           <div id="ccollapseFive" class="collapse" role="tabpanel" aria-labelledby="Geotermia">
+                           <div id="ccollapseFive" class="collapse" data-parent="#petro-accordion"  role="tabpanel" aria-labelledby="Geotermia">
                               <div class="card-block">
                                  <div class="col-md-4">
                                     <img src="img/Geotermia.webp" alt="">
@@ -235,12 +233,12 @@
                         <div class="card">
                            <div class="card-header" role="tab" id="flujo-superficial">
                               <h5 class="mb-0">
-                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#ccollapseSix" aria-expanded="false" aria-controls="ccollapseSix">
+                                 <a class="collapsed" data-toggle="collapse" href="#ccollapseSix" aria-expanded="false" aria-controls="ccollapseSix">
                                  Detección de flujo superficial de gases
                                  </a>
                               </h5>
                            </div>
-                           <div id="ccollapseSix" class="collapse" role="tabpanel" aria-labelledby="flujo-superficial">
+                           <div id="ccollapseSix" class="collapse"  data-parent="#petro-accordion" role="tabpanel" aria-labelledby="flujo-superficial">
                               <div class="card-block">
                                  <div class="col-md-4">
                                     <img src="img/Deteccion-de-flujo-superfifial.png" alt="">
@@ -284,5 +282,10 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
           <script src="https://use.fontawesome.com/4fc6e77c9f.js"></script>
     <script src="js/script.js"></script>
+    <script>
+            $(document).ready(function () {
+                $('.collapse').collapse
+                });
+    </script>
    </body>
 </html>
