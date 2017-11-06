@@ -37,8 +37,8 @@ input{
     padding:0;
 }
 .header-image-container{
-        background: url(../img/main-bg.jpg) no-repeat 0 0;
-    background-size: 100%;
+        background: url(../img/main-bg.jpg) no-repeat bottom center;
+        box-shadow: inset 0 -5px 6px rgba(0,0,0,0.5);
     min-height: 470px; 
 }
 .map-container{
@@ -56,10 +56,13 @@ input{
     background-size: 100%;
     min-height: 470px; 
 }
+.navbar-right{
+    margin-right: 3% !important;
+}
 }
 @media(max-width:768px){
     .header-image-container {
-    background: url(../img/main-bg.jpg) no-repeat 0 0px;
+    background: url(../img/main-bg.jpg) no-repeat center center;
     background-size: inherit;
     
 }
@@ -79,6 +82,23 @@ header{
     z-index: 10;
     position: relative;
 }
+@media (max-width: 480px){
+    header{
+        height: 58px;
+    }
+    .header-image-container {
+        background: url(../img/main-bg.jpg) no-repeat -274px -178px;
+        background-size: inherit;
+        min-height: 254px;
+    }
+    .main-section {
+        padding-top: 26px;
+    }
+    .main-section.services .col-md-4 a{
+        margin-top: 42px;
+    }
+    
+}
 .navbar-default{
     background: white;
     border: none;
@@ -86,6 +106,13 @@ header{
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
     margin-top:22px;
+    
+}
+@media(max-width: 480px){
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        box-shadow: 0 4px 3px rgba(0,0,0,0.3);  
+    }
+    
 }
 .nav>li>a.header-button{
     background-color: #4BC8E1;
@@ -360,6 +387,8 @@ footer p{
 .main-section.services{
     min-height: inherit !important;
     outline: none;
+    
+    padding-bottom: 83px;
 }
 
 
@@ -417,6 +446,11 @@ footer p{
 #sobreNosotros p{
     font-size:20px;
     text-align:justify;
+}
+@media(max-width: 480px){
+    #sobreNosotros p{
+        text-align: center !important;
+    }
 }
 .back-button{
     position:fixed;
