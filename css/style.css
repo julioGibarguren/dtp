@@ -391,7 +391,10 @@ footer p{
     padding-bottom: 83px;
 }
 
-
+.ambientales-section h4{
+    text-align: center;
+    padding-bottom:15px;
+}
 .btn-primary {
     color: #fff;
     background-color: #5D856C;
@@ -482,4 +485,7 @@ footer p{
 }
 .panel-default {
     clear: both;
+}
+textarea{
+    margin: 15px 0;
 }
