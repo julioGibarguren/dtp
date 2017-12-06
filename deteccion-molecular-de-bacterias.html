@@ -42,9 +42,27 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">     
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                            <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">es</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" class="lang-button" data-lang="es" id="btn-es">
+                                            <img src="img/flag-es.jpg" alt="spanish" />
+                                        </a>
+                                        <a class="dropdown-item" class="lang-button" data-lang="en" id="btn-en">
+                                            <img src="img/flag-en.jpg" alt="english" />
+                                        </a>
+                                        <a class="dropdown-item" class="lang-button" data-lang="pt" id="btn-pt">
+                                            <img src="img/flag-pt.jpg" alt="portugues" />
+                                        </a>
+                                    </div>
+                                </li>
+                     </ul>  
+                <ul class="nav navbar-nav navbar-right tooglenav">
+                    
+                    <!--<li>
                         <a href="index.html">INICIO</a>
                     </li>
                     <li>
@@ -55,10 +73,14 @@
                     </li>
                     <li>
                         <a href="contacto.html">CONTACTO</a>
-                    </li>
+                    </li>-->
+                    
                 </ul>
-            </div><!-- /.navbar-collapse -->
-          </div>
+                     
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
           
       </div>
     
@@ -100,7 +122,7 @@
                    <div class="col-md-12">
                        <h3>Detección molecular de bacterias</h3>
                        <div class="col-md-4">
-                           <img src="https://static.wixstatic.com/media/e7d9a5_482b40fe078c498f832b7cf77b2f679f~mv2_d_4032_3024_s_4_2.jpg/v1/fill/w_466,h_279,al_c,q_80,usm_0.66_1.00_0.01/e7d9a5_482b40fe078c498f832b7cf77b2f679f~mv2_d_4032_3024_s_4_2.webp" alt="">
+                           <img style="width:100%" src="https://static.wixstatic.com/media/e7d9a5_482b40fe078c498f832b7cf77b2f679f~mv2_d_4032_3024_s_4_2.jpg/v1/fill/w_466,h_279,al_c,q_80,usm_0.66_1.00_0.01/e7d9a5_482b40fe078c498f832b7cf77b2f679f~mv2_d_4032_3024_s_4_2.webp" alt="">
                        </div>
                        <div class="col-md-8">
                            <p>Contar con herramientas de bilogía molecular nos permite realizar una detección y cuantificación de microorganismos sustancialmente más certera, rápida y contundente que de forma tradicional, utilizando cultivos.
@@ -135,6 +157,8 @@ Contamos con la posiblidad de determinar a medida nuestros tragets, caracterizar
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="https://use.fontawesome.com/4fc6e77c9f.js"></script>
+        <script src="js/multilang.js"></script>
+        
     <script src="js/script.js"></script>
   </body>
 </html>
