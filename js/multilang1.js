@@ -83,47 +83,18 @@ var UIController = (function(){
         document.querySelector(DOMstrings.navbarRight).innerHTML = newHtml;
         createCookie('lang', newlang, 30);
     }
-    function replaceText(data){
-        console.log(data)
-    }
-      function replaceText(data){
-        var currentLocation = window.location.pathname;
-        var URLdomain = window.location.host;
-        var currentUrl = URLdomain + currentLocation;
-        
-        console.log(currentLocation)
-
-        if(currentLocation === '/' || currentLocation === '/index.html'){
-           console.log('home')
-        } else if (currentLocation === '/nosotros.html'){
-            console.log('nosotros')
-        } else if(currentLocation === '/contacto.html'){
-            console.log('contacto')
-        } else if(currentLocation === '/exploracion-de-superficie.html'){
-            console.log('exploracion')
-        } else if(currentLocation === '/servicios-petromineros.html'){
-            console.log('petromineros')
-        } else if( currentLocation === '/deteccion-molecular-de-bacterias.html'){
-            console.log('bacterias')
-        } else if(currentLocation === '/analisis-y-servicios-ambientales.html'){
-            console.log('ambientales')
-        }else{
-            console.log('no registered url')
-        }
-
-        // var translates = document.querySelectorAll('.translate');
-        
-        // for(var i = 0; i < translates.length; i++){
-        //     // console.log(translates[i]);
-        //     var a = translates[i].id;
-        //     console.log(a)
-           
-           
-        //     // document.getElementById(translates[i].id).textContent = data.a
-        // }
-
-
-    }
+    
+    // function replaceText(data){
+    //     var translates = document.querySelectorAll('.translate');       
+    //     for(var i = 0; i < translates.length; i++){
+    //         console.log(translates[i]);
+    //         console.log(data.contact.title)
+    //         var a = translates[i].id;
+    //         var b = data + '.' + a;
+    //         console.log(b)      
+    //         document.getElementById(translates[i].id).textContent = b
+    //     }
+    // }
     function loadTranslateJson(){
         var cookieLang = readCookie('lang')
         var jsonUrl = '../js/' + cookieLang + '.json'
@@ -134,7 +105,14 @@ var UIController = (function(){
             alert('Something went wrong: ' + err);
           } else {
             alert('Your title: ' + data.title);
-            replaceText(data)
+            var translates = document.querySelectorAll('.translate');       
+            for(var i = 0; i < translates.length; i++){
+                var a = translates[i].id;
+                console.log(translates[i].id
+                )
+                document.getElementById(translates[i].id).innerHTML = data[a]
+                
+            }
           }
           
         }); 
@@ -148,23 +126,22 @@ var UIController = (function(){
                 newLang = 'es' 
                 console.log(newLang)
                 setNavLang(newLang);
-                loadTranslateJson()
+                loadTranslateJson();
                 
-            })
+            });
             document.getElementById('btn-en').addEventListener('click', function(){ 
                 newLang = 'en' 
                 console.log(newLang)
                 setNavLang(newLang);
-                loadTranslateJson()
-            })
+                loadTranslateJson();
+            });
             document.getElementById('btn-pt').addEventListener('click', function(){ 
                 newLang = 'pt' 
                 console.log(newLang)
                 setNavLang(newLang);
-                loadTranslateJson()
-            })
+            });
             setNavLang(newLang);
-            loadTranslateJson()
+            loadTranslateJson();
         }
     }
 })();
@@ -192,6 +169,7 @@ var translatorController = (function(){
 var siteController = (function(translatorCtrl, UICtrl){
     var changeLang = function(){
        UICtrl.setNewLang();
+       
 
        
     };

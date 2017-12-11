@@ -1,85 +1,85 @@
 {
-    "title":"hola"
-    //    "home":{
-    //        "services":{
-    //            "title":"SERVICES",
-    //            "buttons":{
-    //                 "exploration":"Oil and gas surface exploration",
-    //                 "mining":"Services for the oil and mining industry",
-    //                 "enviroment":"Environmental analysis and services"
-    //            }  
-    //        },
-    //        "about":{
-    //             "title":"ABOUT US",
-    //             "text":{
-    //                 "1":"DTP is a consulting firm located in Ciudad Autónoma de Buenos Aires, Argentina, operating in all South America. Our company consists of an interdisciplinary team with wide experience such as geologists, geochemists, biologists, chemists and biochemists specialized in the oil and mining industry.",
-    //                 "2":"DTP has focused specially on trace-level detection of elements and hydrocarbons for the realization of Geochemical and Environmental Studies, developing proprietary high-efficiency techniques in which chemical and microbiological analysis are combined."
-    //             },
-    //             "buttons":{
-    //                 "text":"Our Vision"
-    //             }
-    //        }
-    //    },
-    //    "about":{
-    //        "mission":{
-    //            "title": "MISSION",
-    //            "p": "To offer a service of excellence based on leading-edge technologies and efficient and economically profitable techniques in order to greatly reduce the exploratory risk and the environmental impact."
-    //        },
-    //        "vision":{
-    //            "title":"VISION",
-    //            "p":"To become our clients&#39; strategic ally par excellence."
-    //        },
-    //         "values":{
-    //             "title":"OUR VALUES AND COMMITMENTS",
-    //             "company":{
-    //                 "title": "IN THE COMPANY:",
-    //                 "items":{
-    //                     "1": "Lead by example.",
-    //                     "2": "Work in teams.",
-    //                     "3": "Show respect and concern for people.",
-    //                     "4": "Positive attitude",
-    //                     "5": "Quality and excellence in results.",
-    //                     "6": "Constant innovation.",
-    //                     "7": "Integrity"
-    //                 }  
-    //             },
-    //             "client": {
-    //                 "title": "FOR THE CLIENT:",
-    //                 "items":{
-    //                     "1": "Satisfy the client’s requirements.",
-    //                     "2": "Give objective and reliable information.",
-    //                     "3": "Honest and open communication.",
-    //                     "4": "Commitment to results.",
-    //                     "5": "Confidentiality."
-    //                 }  
-    //             },
-    //             "society":{
-    //                 "title":"FOR SOCIETY:",
-    //                 "items":{
-    //                     "1": "Community engagement.",
-    //                     "2": "Social responsibility."
-    //                 } 
-    //             }   
-    //         } 
-    //    },
-    //    "exploration":{
+       "title":"oi",
+       "home":{
+           "services":{
+               "title":"SERVICES",
+               "buttons":{
+                    "exploration":"Oil and gas surface exploration",
+                    "mining":"Services for the oil and mining industry",
+                    "enviroment":"Environmental analysis and services"
+               }  
+           },
+           "about":{
+                "title":"ABOUT US",
+                "text":{
+                    "1":"DTP is a consulting firm located in Ciudad Autónoma de Buenos Aires, Argentina, operating in all South America. Our company consists of an interdisciplinary team with wide experience such as geologists, geochemists, biologists, chemists and biochemists specialized in the oil and mining industry.",
+                    "2":"DTP has focused specially on trace-level detection of elements and hydrocarbons for the realization of Geochemical and Environmental Studies, developing proprietary high-efficiency techniques in which chemical and microbiological analysis are combined."
+                },
+                "buttons":{
+                    "text":"Our Vision"
+                }
+           }
+       },
+       "about":{
+           "mission":{
+               "title": "MISSION",
+               "p": "To offer a service of excellence based on leading-edge technologies and efficient and economically profitable techniques in order to greatly reduce the exploratory risk and the environmental impact."
+           },
+           "vision":{
+               "title":"VISION",
+               "p":"To become our clients&#39; strategic ally par excellence."
+           },
+            "values":{
+                "title":"OUR VALUES AND COMMITMENTS",
+                "company":{
+                    "title": "IN THE COMPANY:",
+                    "items":{
+                        "1": "Lead by example.",
+                        "2": "Work in teams.",
+                        "3": "Show respect and concern for people.",
+                        "4": "Positive attitude",
+                        "5": "Quality and excellence in results.",
+                        "6": "Constant innovation.",
+                        "7": "Integrity"
+                    }  
+                },
+                "client": {
+                    "title": "FOR THE CLIENT:",
+                    "items":{
+                        "1": "Satisfy the client’s requirements.",
+                        "2": "Give objective and reliable information.",
+                        "3": "Honest and open communication.",
+                        "4": "Commitment to results.",
+                        "5": "Confidentiality."
+                    }  
+                },
+                "society":{
+                    "title":"FOR SOCIETY:",
+                    "items":{
+                        "1": "Community engagement.",
+                        "2": "Social responsibility."
+                    } 
+                }   
+            } 
+       },
+       "exploration":{
     
-    //    },
-    //    "mining":{
+       },
+       "mining":{
     
-    //    },
-    //    "environmental":{
+       },
+       "environmental":{
     
-    //    },
-    //    "contact":{
-    //        "title":"Entre em contato conosco",
+       },
+       "contact":{
+           "title":"Entre em contato conosco",
 
-    //        "form":{
-    //             "name":"Nome e sobrenome",
-    //             "e-mail":"Seu e-mail",
-    //             "message":"Escreva aqui sua mensagem",
-    //             "button":"Enviar"
-    //        }
-    //    }
+           "form":{
+                "name":"Nome e sobrenome",
+                "e-mail":"Seu e-mail",
+                "message":"Escreva aqui sua mensagem",
+                "button":"Enviar"
+           }
+       }
        
      }

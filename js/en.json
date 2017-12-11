@@ -1,84 +1,258 @@
 {
-    "title":"hola"
-//    "home":{
-//        "services":{
-//            "title":"SERVICES",
-//            "buttons":{
-//                 "exploration":"Oil and gas surface exploration",
-//                 "mining":"Services for the oil and mining industry",
-//                 "enviroment":"Environmental analysis and services"
-//            }  
-//        },
-//        "about":{
-//             "title":"ABOUT US",
-//             "text":{
-//                 "1":"DTP is a consulting firm located in Ciudad Autónoma de Buenos Aires, Argentina, operating in all South America. Our company consists of an interdisciplinary team with wide experience such as geologists, geochemists, biologists, chemists and biochemists specialized in the oil and mining industry.",
-//                 "2":"DTP has focused specially on trace-level detection of elements and hydrocarbons for the realization of Geochemical and Environmental Studies, developing proprietary high-efficiency techniques in which chemical and microbiological analysis are combined."
-//             },
-//             "buttons":{
-//                 "text":"Our Vision"
-//             }
-//        }
-//    },
-//    "about":{
-//        "mission":{
-//            "title": "MISSION",
-//            "p": "To offer a service of excellence based on leading-edge technologies and efficient and economically profitable techniques in order to greatly reduce the exploratory risk and the environmental impact."
-//        },
-//        "vision":{
-//            "title":"VISION",
-//            "p":"To become our clients&#39; strategic ally par excellence."
-//        },
-//         "values":{
-//             "title":"OUR VALUES AND COMMITMENTS",
-//             "company":{
-//                 "title": "IN THE COMPANY:",
-//                 "items":{
-//                     "1": "Lead by example.",
-//                     "2": "Work in teams.",
-//                     "3": "Show respect and concern for people.",
-//                     "4": "Positive attitude",
-//                     "5": "Quality and excellence in results.",
-//                     "6": "Constant innovation.",
-//                     "7": "Integrity"
-//                 }  
-//             },
-//             "client": {
-//                 "title": "FOR THE CLIENT:",
-//                 "items":{
-//                     "1": "Satisfy the client’s requirements.",
-//                     "2": "Give objective and reliable information.",
-//                     "3": "Honest and open communication.",
-//                     "4": "Commitment to results.",
-//                     "5": "Confidentiality."
-//                 }  
-//             },
-//             "society":{
-//                 "title":"FOR SOCIETY:",
-//                 "items":{
-//                     "1": "Community engagement.",
-//                     "2": "Social responsibility."
-//                 } 
-//             }   
-//         } 
-//    },
-//    "exploration":{
+   "title":"hello",
+   "home":{
+       "services":{
+           "title":"SERVICES",
+           "buttons":{
+                "exploration":"Oil and gas surface exploration",
+                "mining":"Services for the oil and mining industry",
+                "enviroment":"Environmental analysis and services"
+           }  
+       },
+       "about":{
+            "title":"ABOUT US",
+            "text":{
+                "1":"DTP is a consulting firm located in Ciudad Autónoma de Buenos Aires, Argentina, operating in all South America. Our company consists of an interdisciplinary team with wide experience such as geologists, geochemists, biologists, chemists and biochemists specialized in the oil and mining industry.",
+                "2":"DTP has focused specially on trace-level detection of elements and hydrocarbons for the realization of Geochemical and Environmental Studies, developing proprietary high-efficiency techniques in which chemical and microbiological analysis are combined."
+            },
+            "buttons":{
+                "text":"Our Vision"
+            }
+       }
+   },
+   "about":{
+       "mission":{
+           "title": "MISSION",
+           "p": "To offer a service of excellence based on leading-edge technologies and efficient and economically profitable techniques in order to greatly reduce the exploratory risk and the environmental impact."
+       },
+       "vision":{
+           "title":"VISION",
+           "p":"To become our clients&#39; strategic ally par excellence."
+       },
+        "values":{
+            "title":"OUR VALUES AND COMMITMENTS",
+            "company":{
+                "title": "IN THE COMPANY:",
+                "items":{
+                    "1": "Lead by example.",
+                    "2": "Work in teams.",
+                    "3": "Show respect and concern for people.",
+                    "4": "Positive attitude",
+                    "5": "Quality and excellence in results.",
+                    "6": "Constant innovation.",
+                    "7": "Integrity"
+                }  
+            },
+            "client": {
+                "title": "FOR THE CLIENT:",
+                "items":{
+                    "1": "Satisfy the client’s requirements.",
+                    "2": "Give objective and reliable information.",
+                    "3": "Honest and open communication.",
+                    "4": "Commitment to results.",
+                    "5": "Confidentiality."
+                }  
+            },
+            "society":{
+                "title":"FOR SOCIETY:",
+                "items":{
+                    "1": "Community engagement.",
+                    "2": "Social responsibility."
+                } 
+            }   
+        } 
+   },
+   "exploration":{
+    "title": "Oil and gas surface exploration",
+    "items":{
+        "item-1":{
+            "title":"Conceptual Framework:",
+            "img-text":"Microbial anomaly, Migration of light hydrocarbons, . Hydrocarbons.",
+            "text":{
+                "p1":"From hydrocarbons accumulation, a migration of their own gaseous part is produced, fromthe reservoir to the surface. Such phenomenon may be registered through direct evidence (the concentration of adsorbed or occluded gases in minerals) or indirect evidence (for example, the growth of bacterial colonies capable of degrading hydrocarbons).",
+                "p2":"Although hydrocarbon migration is usually vertical from the accumulation, gases can also take advantage of preferential escape routes such as faults and fractures. Recognizing one or the other phenomenon is one of the key factors in the interpretation of the information in surface geochemistry.",
+                "p3":"DTP Laboratorios has pioneered the development of proprietary technologies to define the geochemical anomalies associated to hydrocarbon accumulations. Our work is to determine the existence of active systems, through the analysis of biogeochemical information (bacterial colonies degrading hydrocarbons) and the composition of the source of migrated hydrocarbon, through the analysis of adsorbed/occluded gases.",
+                "p4":"In addition, in the last years, DTP Laboratorios has developed an advanced method for detection and quantification of microbiological communities through DNA, which permits to overcome the limitations of the conventional microbiological one. This method has the advantage of quantifying all DNA present in the sample, proportional to the amount of microbes with the capacity of degrading hydrocarbons, which correlates with the flow of light hydrocarbons in surface."        
+            }
+        },
+        "item-2":{
+            "title":"Adsorbed gases",
+            "img-text":"",
+            "text":{
+                "p1":"",
+                "p2":""
+            }
 
-//    },
-//    "mining":{
+        },
+        "item-3":{
+            "title":"Surface biochemistry",
+            "img-text":"",
+            "text":{
+                "p1":"",
+                "p2":""
+            }  
+        },
+        "item-4":{
+            "title":"Free gases",
+            "img-text":"",
+            "text":{
+                "p1":"",
+                "p2":""
+            }
+          },
+          "item-5":{
+            "title":"Isotopes applied to geochemical exploration",
+            "img-text":"",
+            "text":{
+                "p1":"",
+                "p2":""
+            }
+          },
+          "item-6":{
+            "title":"Remote sensing",
+            "img-text":"",
+            "text":{
+                "p1":"",
+                "p2":""
+            }
+          },
+          "item-7":{
+            "title":"GPR",
+            "img-text":"",
+            "text":{
+                "p1":"",
+                "p2":"",
+                "list":{
+                    "1":"",
+                    "2":"",
+                    "3":"",
+                    "4":"",
+                    "5":"",
+                    "6":""
+                }
+            }
+          }
 
-//    },
-//    "environmental":{
+        }
 
-//    },
-//    "contact":{
-//        "title":"CONTACT US",
-//        "form":{
-//             "name":"Name and Surname",
-//             "e-mail":"E-mail address",
-//             "message":"Write your message here",
-//             "button":"Send"
-//        }
-//    }
+   },
+   "mining":{
+    "title": "Services for the oil and mining industry",
+    "items":{
+        "item-1":{
+            "title":"Chemostratigraphy",
+            "img-text":"",
+            "text":{
+                "p1":"",
+                "p2":""
+            }
+
+        },
+        "item-2":{
+            "title":"Chemostratigraphy",
+            "img-text":"",
+            "text":{
+                "p1":"",
+                "p2":""
+            }
+
+        },
+        "item-3":{
+            "title":"Chemostratigraphy",
+            "img-text":"",
+            "text":{
+                "p1":"",
+                "p2":""
+            }
+
+        },
+        "item-4":{
+            "title":"Chemostratigraphy",
+            "img-text":"",
+            "text":{
+                "p1":"",
+                "p2":""
+            }
+
+        },
+        "item-5":{
+            "title":"Chemostratigraphy",
+            "img-text":"",
+            "text":{
+                "p1":"",
+                "p2":""
+            }
+
+        },
+        "item-6":{
+            "title":"Chemostratigraphy",
+            "img-text":"",
+            "text":{
+                "p1":"",
+                "p2":""
+            }
+
+        }
+    }
+   },
+   "environmental":{
+    "title": "Services for the oil and mining industry",
+    "items":{
+        "item-1":{
+            "title":"Chemostratigraphy",
+            "img-text":"",
+            "text":{
+                "p1":"",
+                "p2":""
+            }
+
+        },
+        "item-2":{
+            "title":"Chemostratigraphy",
+            "img-text":"",
+            "text":{
+                "p1":"",
+                "p2":""
+            }
+
+        },
+        "item-3":{
+            "title":"Chemostratigraphy",
+            "img-text":"",
+            "text":{
+                "p1":"",
+                "p2":""
+            }
+
+        },
+        "item-4":{
+            "title":"Chemostratigraphy",
+            "img-text":"",
+            "text":{
+                "p1":"",
+                "p2":""
+            }
+
+        },
+        "item-5":{
+            "title":"Chemostratigraphy",
+            "img-text":"",
+            "text":{
+                "p1":"",
+                "p2":""
+            }
+
+        }
+      }
+   },
+   "contact":{
+       "title":"CONTACT US",
+       "form":{
+            "name":"Name and Surname",
+            "e-mail":"E-mail address",
+            "message":"Write your message here",
+            "button":"Send"
+       }
+   }
    
  }
