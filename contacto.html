@@ -97,13 +97,23 @@
                <div class="container-fluid">
                <div class="row">
                    <div class="col-md-12 contact-container">
-                       <h3 id="contact.title" class="translate">Contactenos</h3>
+                       <h3 id="contact_title" class="translate">Contactenos</h3>
                        <div class="col-md-6">
                              <form name="contactform" method="post" action="send_form_email.php">
-                               <div id="contact.form.name" class="col-md-12 translate"><input name="first_name" type="text" placeholder="Nombre y apellido"></div>
-                               <div class="col-md-12"><input type="text" name="email" placeholder="Su dirección de email"></div>
-                               <div class="col-md-12"><textarea name="message" id="" cols="30" rows="10" placeholder="Escriba aquí su mensaje"></textarea></div>
-                               <input type="submit" value="Enviar">
+                               <div  class="col-md-12">
+                                   <label for="first_name" id="contact_form_name" class="translate">Nombre y apellido</label>
+                                   <input name="first_name" id="form_name" type="text" placeholder="Nombre y apellido">
+                                </div>
+                               <div class="col-md-12">
+                                   <label for="email" id="contact_form_email" class="translate">Su dirección de email</label>
+                                   <input type="text" id="form_email" name="email" placeholder="Su dirección de email">
+                                </div>
+                               <div class="col-md-12">
+                                   <label for="messane" id="contact_form_message" class="translate">Escriba aquí su mensaje</label>
+                                   <textarea name="message" id="form_message" cols="30" rows="10" placeholder="Escriba aquí su mensaje"></textarea>
+                                </div>
+                                <label for="" id="contact_form_button" class="translate">Enviar</label>
+                               <input id="form_button" type="submit" value="Enviar">
                             </form>
                        </div>
                        
@@ -144,7 +154,7 @@ Argentina</p>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="https://use.fontawesome.com/4fc6e77c9f.js"></script>
-        <script src="js/multilang1.js"></script>
+        <script src="js/multilang_script.js"></script>
     <script src="js/script.js"></script>
     
     

@@ -1,84 +1,140 @@
 {
-       "title":"hola",
-       "home":{
-           "services":{
-               "title":"SERVICES",
-               "buttons":{
-                    "exploration":"Oil and gas surface exploration",
-                    "mining":"Services for the oil and mining industry",
-                    "enviroment":"Environmental analysis and services"
-               }  
-           },
-           "about":{
-                "title":"ABOUT US",
-                "text":{
-                    "1":"DTP is a consulting firm located in Ciudad Autónoma de Buenos Aires, Argentina, operating in all South America. Our company consists of an interdisciplinary team with wide experience such as geologists, geochemists, biologists, chemists and biochemists specialized in the oil and mining industry.",
-                    "2":"DTP has focused specially on trace-level detection of elements and hydrocarbons for the realization of Geochemical and Environmental Studies, developing proprietary high-efficiency techniques in which chemical and microbiological analysis are combined."
-                },
-                "buttons":{
-                    "text":"Our Vision"
-                }
-           }
-       },
-       "about":{
-           "mission":{
-               "title": "MISSION",
-               "p": "To offer a service of excellence based on leading-edge technologies and efficient and economically profitable techniques in order to greatly reduce the exploratory risk and the environmental impact."
-           },
-           "vision":{
-               "title":"VISION",
-               "p":"To become our clients&#39; strategic ally par excellence."
-           },
-            "values":{
-                "title":"OUR VALUES AND COMMITMENTS",
-                "company":{
-                    "title": "IN THE COMPANY:",
-                    "items":{
-                        "1": "Lead by example.",
-                        "2": "Work in teams.",
-                        "3": "Show respect and concern for people.",
-                        "4": "Positive attitude",
-                        "5": "Quality and excellence in results.",
-                        "6": "Constant innovation.",
-                        "7": "Integrity"
-                    }  
-                },
-                "client": {
-                    "title": "FOR THE CLIENT:",
-                    "items":{
-                        "1": "Satisfy the client’s requirements.",
-                        "2": "Give objective and reliable information.",
-                        "3": "Honest and open communication.",
-                        "4": "Commitment to results.",
-                        "5": "Confidentiality."
-                    }  
-                },
-                "society":{
-                    "title":"FOR SOCIETY:",
-                    "items":{
-                        "1": "Community engagement.",
-                        "2": "Social responsibility."
-                    } 
-                }   
-            } 
-       },
-       "exploration":{
-    
-       },
-       "mining":{
-    
-       },
-       "environmental":{
-    
-       },
-       "contact":{
-           "title":"CONTACT US",
-           "form":{
-                "name":"Name and Surname",
-                "e-mail":"E-mail address",
-                "message":"Write your message here",
-                "button":"Send"
-           }
-       }
-       
-     }
+    "title": "hello",
+    "home_services_title": "SERVICES",
+    "home_services_exploration": "Oil and gas surface exploration",
+    "home_services_mining": "Services for the oil and mining industry",
+    "home_services_enviroment": "Environmental analysis and services",
+    "home_about_title": "ABOUT US",
+    "home_about_text_1": "DTP is a consulting firm located in Ciudad Autónoma de Buenos Aires, Argentina, operating in all South America. Our company consists of an interdisciplinary team with wide experience such as geologists, geochemists, biologists, chemists and biochemists specialized in the oil and mining industry.",
+    "home_about_text_2": "DTP has focused specially on trace-level detection of elements and hydrocarbons for the realization of Geochemical and Environmental Studies, developing proprietary high-efficiency techniques in which chemical and microbiological analysis are combined.",
+    "home_about_button_text": "Our Vision",
+    "about_mission_title": "MISSION",
+    "about_mission_p": "To offer a service of excellence based on leading-edge technologies and efficient and economically profitable techniques in order to greatly reduce the exploratory risk and the environmental impact.",
+    "about_vision_title": "VISION",
+    "about_vision_p": "To become our clients&#39; strategic ally par excellence.",
+    "about_values_title": "OUR VALUES AND COMMITMENTS",
+    "about_values_company_title": "IN THE COMPANY:",
+    "about_values_company_item_1": "Lead by example.",
+    "about_values_company_item_2": "Work in teams.",
+    "about_values_company_item_3": "Show respect and concern for people.",
+    "about_values_company_item_4": "Positive attitude",
+    "about_values_company_item_5": "Quality and excellence in results.",
+    "about_values_company_item_6": "Constant innovation.",
+    "about_values_company_item_7": "Integrity",
+    "about_values_client_title": "FOR THE CLIENT:",
+    "about_values_client_item_1": "Satisfy the client’s requirements.",
+    "about_values_client_item_2": "Give objective and reliable information.",
+    "about_values_client_item_3": "Honest and open communication.",
+    "about_values_client_item_4": "Commitment to results.",
+    "about_values_client_item_5": "Confidentiality.",
+    "about_values_society_title": "FOR SOCIETY:",
+    "about_values_society_item_1": "Community engagement.",
+    "about_values_society_item_2": "Social responsibility.",
+
+    "exploration_title": "Oil and gas surface exploration",
+    "exploration_item-1_title": "Conceptual Framework:",
+    "exploration_item-1_img-text": "Microbial anomaly, Migration of light hydrocarbons, . Hydrocarbons.",
+    "exploration_item-1_p1": "From hydrocarbons accumulation, a migration of their own gaseous part is produced, fromthe reservoir to the surface. Such phenomenon may be registered through direct evidence (the concentration of adsorbed or occluded gases in minerals) or indirect evidence (for example, the growth of bacterial colonies capable of degrading hydrocarbons).",
+    "exploration_item-1_p2": "Although hydrocarbon migration is usually vertical from the accumulation, gases can also take advantage of preferential escape routes such as faults and fractures. Recognizing one or the other phenomenon is one of the key factors in the interpretation of the information in surface geochemistry.",
+    "exploration_item-1_p3": "DTP Laboratorios has pioneered the development of proprietary technologies to define the geochemical anomalies associated to hydrocarbon accumulations. Our work is to determine the existence of active systems, through the analysis of biogeochemical information (bacterial colonies degrading hydrocarbons) and the composition of the source of migrated hydrocarbon, through the analysis of adsorbed/occluded gases.",
+    "exploration_item-1_p4": "In addition, in the last years, DTP Laboratorios has developed an advanced method for detection and quantification of microbiological communities through DNA, which permits to overcome the limitations of the conventional microbiological one. This method has the advantage of quantifying all DNA present in the sample, proportional to the amount of microbes with the capacity of degrading hydrocarbons, which correlates with the flow of light hydrocarbons in surface.",
+
+    "exploration_item-2_title": "Adsorbed gases",
+    "exploration_item-2_img-text": "",
+    "exploration_item-2_p1": "",
+    "exploration_item-2_p2": "",
+
+    "exploration_item-3_title": "Surface biochemistry",
+    "xploration_item-3_img-text": "",
+    "exploration_item-3_p1": "",
+    "exploration_item-3_p2": "",
+
+    "exploration_item-4_title": "Free gases",
+    "exploration_item-4_img-text": "",
+    "exploration_item-4_p1": "",
+    "exploration_item-4_p2": "",
+
+    "exploration_item-5_title": "Isotopes applied to geochemical exploration",
+    "exploration_item-5_img-text": "",
+    "exploration_item-5_p1": "",
+    "exploration_item-5_p2": "",
+
+    "exploration_item-6_title": "Remote sensing",
+    "exploration_item-6_img-text": "",
+    "exploration_item-6_p1": "",
+    "exploration_item-6_p2": "",
+
+    "exploration_item-7_title": "GPR",
+    "exploration_item-7_img-text": "",
+    "exploration_item-7_p1": "",
+    "exploration_item-7_p2": "",
+    "exploration_item-7_list_1": "",
+    "exploration_item-7_list_2": "",
+    "exploration_item-7_list_3": "",
+    "exploration_item-7_list_4": "",
+    "exploration_item-7_list_5": "",
+    "exploration_item-7_list_6": "",
+
+    "mining_title": "Services for the oil and mining industry",
+    "mining_item-1_title": "Chemostratigraphy",
+    "mining_item-1_img-text": "",
+    "mining_item-1_p1": "",
+    "mining_item-1_p2": "",
+
+    "mining_item-2_title": "Chemostratigraphy",
+    "mining_item-2_img-text": "",
+    "mining_item-2_p1": "",
+    "mining_item-2_p2": "",
+
+    "mining_item-3_title": "Chemostratigraphy",
+    "mining_item-3_img-text": "",
+    "mining_item-3_p1": "",
+    "mining_item-3_p2": "",
+
+    "mining_item-4_title": "Chemostratigraphy",
+    "mining_item-4_img-text": "",
+    "mining_item-4_p1": "",
+    "mining_item-4_p2": "",
+
+    "mining_item-5_title": "Chemostratigraphy",
+    "mining_item-5_img-text": "",
+    "mining_item-5_p1": "",
+    "mining_item-5_p2": "",
+
+    "mining_item-6_title": "Chemostratigraphy",
+    "mining_item-6_img-text": "",
+    "mining_item-6_p1": "",
+    "mining_item-6_p2": "",
+
+    "environmental_title": "Services for the oil and mining industry",
+    "environmental_item-1title": "Chemostratigraphy",
+    "ienvironmental_item-1mg-text": "",
+    "environmental_item-1_p1": "",
+    "environmental_item-1_p2": "",
+
+    "environmental_item-2_title": "Chemostratigraphy",
+    "environmental_item-2_img-text": "",
+    "environmental_item-2_p1": "",
+    "environmental_item-2_p2": "",
+
+    "environmental_item-3_title": "Chemostratigraphy",
+    "environmental_item-3_img-text": "",
+    "environmental_item-3_p1": "",
+    "environmental_item-3_p2": "",
+
+    "environmental_item-4_title": "Chemostratigraphy",
+    "environmental_item-4_img-text": "",
+    "environmental_item-4_p1": "",
+    "environmental_item-4_p2": "",
+
+    "environmental_item-5_title": "Chemostratigraphy",
+    "environmental_item-5_img-text": "",
+    "environmental_item-5_p1": "",
+    "environmental_item-5_p2": "",
+
+    "contact_title": "CONTACT US",
+    "contact_form_name": "Name and Surname",
+    "contact_form_email": "E-mail address",
+    "contact_form_message": "Write your message here",
+    "contact_form_button": "Send"
+}

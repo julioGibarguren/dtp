@@ -1,258 +1,136 @@
 {
-   "title":"hello",
-   "home":{
-       "services":{
-           "title":"SERVICES",
-           "buttons":{
-                "exploration":"Oil and gas surface exploration",
-                "mining":"Services for the oil and mining industry",
-                "enviroment":"Environmental analysis and services"
-           }  
-       },
-       "about":{
-            "title":"ABOUT US",
-            "text":{
-                "1":"DTP is a consulting firm located in Ciudad Autónoma de Buenos Aires, Argentina, operating in all South America. Our company consists of an interdisciplinary team with wide experience such as geologists, geochemists, biologists, chemists and biochemists specialized in the oil and mining industry.",
-                "2":"DTP has focused specially on trace-level detection of elements and hydrocarbons for the realization of Geochemical and Environmental Studies, developing proprietary high-efficiency techniques in which chemical and microbiological analysis are combined."
-            },
-            "buttons":{
-                "text":"Our Vision"
-            }
-       }
-   },
-   "about":{
-       "mission":{
-           "title": "MISSION",
-           "p": "To offer a service of excellence based on leading-edge technologies and efficient and economically profitable techniques in order to greatly reduce the exploratory risk and the environmental impact."
-       },
-       "vision":{
-           "title":"VISION",
-           "p":"To become our clients&#39; strategic ally par excellence."
-       },
-        "values":{
-            "title":"OUR VALUES AND COMMITMENTS",
-            "company":{
-                "title": "IN THE COMPANY:",
-                "items":{
-                    "1": "Lead by example.",
-                    "2": "Work in teams.",
-                    "3": "Show respect and concern for people.",
-                    "4": "Positive attitude",
-                    "5": "Quality and excellence in results.",
-                    "6": "Constant innovation.",
-                    "7": "Integrity"
-                }  
-            },
-            "client": {
-                "title": "FOR THE CLIENT:",
-                "items":{
-                    "1": "Satisfy the client’s requirements.",
-                    "2": "Give objective and reliable information.",
-                    "3": "Honest and open communication.",
-                    "4": "Commitment to results.",
-                    "5": "Confidentiality."
-                }  
-            },
-            "society":{
-                "title":"FOR SOCIETY:",
-                "items":{
-                    "1": "Community engagement.",
-                    "2": "Social responsibility."
-                } 
-            }   
-        } 
-   },
-   "exploration":{
-    "title": "Oil and gas surface exploration",
-    "items":{
-        "item-1":{
-            "title":"Conceptual Framework:",
-            "img-text":"Microbial anomaly, Migration of light hydrocarbons, . Hydrocarbons.",
-            "text":{
-                "p1":"From hydrocarbons accumulation, a migration of their own gaseous part is produced, fromthe reservoir to the surface. Such phenomenon may be registered through direct evidence (the concentration of adsorbed or occluded gases in minerals) or indirect evidence (for example, the growth of bacterial colonies capable of degrading hydrocarbons).",
-                "p2":"Although hydrocarbon migration is usually vertical from the accumulation, gases can also take advantage of preferential escape routes such as faults and fractures. Recognizing one or the other phenomenon is one of the key factors in the interpretation of the information in surface geochemistry.",
-                "p3":"DTP Laboratorios has pioneered the development of proprietary technologies to define the geochemical anomalies associated to hydrocarbon accumulations. Our work is to determine the existence of active systems, through the analysis of biogeochemical information (bacterial colonies degrading hydrocarbons) and the composition of the source of migrated hydrocarbon, through the analysis of adsorbed/occluded gases.",
-                "p4":"In addition, in the last years, DTP Laboratorios has developed an advanced method for detection and quantification of microbiological communities through DNA, which permits to overcome the limitations of the conventional microbiological one. This method has the advantage of quantifying all DNA present in the sample, proportional to the amount of microbes with the capacity of degrading hydrocarbons, which correlates with the flow of light hydrocarbons in surface."        
-            }
-        },
-        "item-2":{
-            "title":"Adsorbed gases",
-            "img-text":"",
-            "text":{
-                "p1":"",
-                "p2":""
-            }
+    "title": "hello",
+    "home_services_title": "SERVICES",
+    "home_services_exploration": "Oil and gas surface exploration",
+    "home_services_mining": "Services for the oil and mining industry",
+    "home_services_enviroment": "Environmental analysis and services",
+    "home_about_title": "About us",
+    "home_about_text_1": "DTP is a consulting firm located in Ciudad Autónoma de Buenos Aires, Argentina, operating in all South America. Our company consists of an interdisciplinary team with wide experience such as geologists, geochemists, biologists, chemists and biochemists specialized in the oil and mining industry.",
+    "home_about_text_2": "DTP has focused specially on trace-level detection of elements and hydrocarbons for the realization of Geochemical and Environmental Studies, developing proprietary high-efficiency techniques in which chemical and microbiological analysis are combined.",
+    "home_about_button_text": "Our Vision",
+    
+    "about_mission_title": "MISSION",
+    "about_mission_p": "To offer a service of excellence based on leading-edge technologies and efficient and economically profitable techniques in order to greatly reduce the exploratory risk and the environmental impact.",
+    "about_vision_title": "VISION",
+    "about_vision_p": "To become our clients&#39; strategic ally par excellence.",
+    "about_values_title": "OUR VALUES AND COMMITMENTS",
+    "about_values_company_title": "IN THE COMPANY:",
+    "about_values_company_item_1": "Lead by example.",
+    "about_values_company_item_2": "Work in teams.",
+    "about_values_company_item_3": "Show respect and concern for people.",
+    "about_values_company_item_4": "Positive attitude",
+    "about_values_company_item_5": "Quality and excellence in results.",
+    "about_values_company_item_6": "Constant innovation.",
+    "about_values_company_item_7": "Integrity",
+    "about_values_client_title": "FOR THE CLIENT:",
+    "about_values_client_item_1": "Satisfy the client’s requirements.",
+    "about_values_client_item_2": "Give objective and reliable information.",
+    "about_values_client_item_3": "Honest and open communication.",
+    "about_values_client_item_4": "Commitment to results.",
+    "about_values_client_item_5": "Confidentiality.",
+    "about_values_society_title": "FOR SOCIETY:",
+    "about_values_society_item_1": "Community engagement.",
+    "about_values_society_item_2": "Social responsibility.",
 
-        },
-        "item-3":{
-            "title":"Surface biochemistry",
-            "img-text":"",
-            "text":{
-                "p1":"",
-                "p2":""
-            }  
-        },
-        "item-4":{
-            "title":"Free gases",
-            "img-text":"",
-            "text":{
-                "p1":"",
-                "p2":""
-            }
-          },
-          "item-5":{
-            "title":"Isotopes applied to geochemical exploration",
-            "img-text":"",
-            "text":{
-                "p1":"",
-                "p2":""
-            }
-          },
-          "item-6":{
-            "title":"Remote sensing",
-            "img-text":"",
-            "text":{
-                "p1":"",
-                "p2":""
-            }
-          },
-          "item-7":{
-            "title":"GPR",
-            "img-text":"",
-            "text":{
-                "p1":"",
-                "p2":"",
-                "list":{
-                    "1":"",
-                    "2":"",
-                    "3":"",
-                    "4":"",
-                    "5":"",
-                    "6":""
-                }
-            }
-          }
+    "surface-explore": "Oil and gas surface exploration",
+    "exploration_item-1_title": "Conceptual Framework:",
+    "exploration_item-1_img-text": "Microbial anomaly, Migration of light hydrocarbons, . Hydrocarbons.",
+    "exploration_item-1_p1": "From hydrocarbons accumulation, a migration of their own gaseous part is produced, fromthe reservoir to the surface. Such phenomenon may be registered through direct evidence (the concentration of adsorbed or occluded gases in minerals) or indirect evidence (for example, the growth of bacterial colonies capable of degrading hydrocarbons).",
+    "exploration_item-1_p2": "Although hydrocarbon migration is usually vertical from the accumulation, gases can also take advantage of preferential escape routes such as faults and fractures. Recognizing one or the other phenomenon is one of the key factors in the interpretation of the information in surface geochemistry.",
+    "exploration_item-1_p3": "DTP Laboratorios has pioneered the development of proprietary technologies to define the geochemical anomalies associated to hydrocarbon accumulations. Our work is to determine the existence of active systems, through the analysis of biogeochemical information (bacterial colonies degrading hydrocarbons) and the composition of the source of migrated hydrocarbon, through the analysis of adsorbed/occluded gases.",
+    "exploration_item-1_p4": "In addition, in the last years, DTP Laboratorios has developed an advanced method for detection and quantification of microbiological communities through DNA, which permits to overcome the limitations of the conventional microbiological one. This method has the advantage of quantifying all DNA present in the sample, proportional to the amount of microbes with the capacity of degrading hydrocarbons, which correlates with the flow of light hydrocarbons in surface.",
 
-        }
+    "exploration_item-2_title": "Adsorbed gases",
+    "exploration_item-2_p1": "The analysis of adsorbed/occluded gases is a traditional technique of surface geochemical exploration. The superficial expression permits to differentiate the type of hydrocarbons present in the subsoil.",
+    "exploration_item-2_p2": "DTP Laboratorios is the only laboratory in Latin America that makes use of a proprietary and credited technique for the determination of light hydrocarbon in soil, using gas chromatography with FID detector. The analyses precisely quantify from methane to pentane.",
 
-   },
-   "mining":{
-    "title": "Services for the oil and mining industry",
-    "items":{
-        "item-1":{
-            "title":"Chemostratigraphy",
-            "img-text":"",
-            "text":{
-                "p1":"",
-                "p2":""
-            }
+    "exploration_item-3_title": "Surface biochemistry",
+    "exploration_item-3_p1": "Surface biogeochemistry is based on the preferential growth of microbial colonies degrading hydrocarbons in areas where there are micro-leakages associated with hydrocarbon accumulations. The maps of microbial anomalies constitute the main prospective tool, because they allow us to determine whether we are in the presence of an active system or not.",
+    "exploration_item-3_p2": "Since the time-scale response covers time intervals from months to years, it possible to follow the productive processes and the depressurization of reservoirs as they are exploited.",
 
-        },
-        "item-2":{
-            "title":"Chemostratigraphy",
-            "img-text":"",
-            "text":{
-                "p1":"",
-                "p2":""
-            }
+    "exploration_item-4_title": "Free gases",
+    "exploration_item-4_p1": "The analysis of free gases in the soil is an environmental friendly technique that permits the evaluation in situ with portable equipment and in real time. This technique can be used for geochemical exploration as well as for environmental studies.",
+    "exploration_item-4_p2": "The study of free gases permits to determine anomalies and evaluate structure (for helium, radon, thoron, carbon dioxide and hydrocarbons) in sectors in which conventional geochemical and seismic exploration does not give appropriate answers.",
+    "exploration_item-4_p3": "In Environment, the gas sampling in soil is a tool used to characterize and evaluate the distribution of chemical compounds potentially toxic in soil and ground water and monitor remedial actions. In that case, the concentration of hydrocarbons, carbon dioxide, carbon monoxide, hydrogen sulfide, oxygen and volatile organic compounds can be determined.",
+    "exploration_item-4_p4": "The determination of the areas impacted by hydrocarbon spills through indirect methods permits to delimit with minimal invasion their location and evolutionary stage. The studies are complemented with ground penetration radar (GPR).",
 
-        },
-        "item-3":{
-            "title":"Chemostratigraphy",
-            "img-text":"",
-            "text":{
-                "p1":"",
-                "p2":""
-            }
+    "exploration_item-5_title": "Isotopes applied to geochemical exploration",
+    "exploration_item-5_p1": "The analysis of the isotopic composition of light hydrocarbons in soil permits to compare the results with theoretical models of evolution. Under special conditions, the technology developed by DTP Laboratorios permits, together with conventional geochemical information, to identify active source rocks in the area, to recognize kerogen types, to map source rock(s) maturity, to generate maps of source rock(s) age generation.",
+    "exploration_item-5_p2": "In addition, the relation gas/liquid in the prospect, the generated target quantity of hydrocarbons, the kitchen depth, time of formation/expulsion/migration and the potential bacterial gas supplies can be estimated..",
 
-        },
-        "item-4":{
-            "title":"Chemostratigraphy",
-            "img-text":"",
-            "text":{
-                "p1":"",
-                "p2":""
-            }
+    "exploration_item-6_title": "Remote sensing",
+    "exploration_item-6_p1": "The use of remote sensing in a project of hydrocarbon exploration permits to obtain a great spatial coverage of areas to be measured and to generate integrated products in a Geographic Information System (GIS), ready for the client to use.",
+    "exploration_item-6_p2": "The objectives to be determined include mineralogical and geochemical alterations, modifications in the vegetation, determination of structures and conventional geological mapping. The information is usually generated in the first stages of an exploratory project, and it complements the traditional surface exploration techniques.",
 
-        },
-        "item-5":{
-            "title":"Chemostratigraphy",
-            "img-text":"",
-            "text":{
-                "p1":"",
-                "p2":""
-            }
+    "exploration_item-7_title": "GPR",
+    "exploration_item-7_p1": "Georadar (GPR) is a tool of extensive applications in sub-soil studies. The capacity to see through, under and inside solid materials using non-invasive techniques has an important application in lots of fields in which investigations would otherwise ask for the use of destructive methods.",
+    "exploration_item-7_p2":"Uses:",
+    "exploration_item-7_list_1": "Locating polluted areas.",
+    "exploration_item-7_list_2": "Delimiting polluting fluids.",
+    "exploration_item-7_list_3": "Aquifer studies and protection from pollution.",
+    "exploration_item-7_list_4": "Individualization of buried objects and tanks.",
+    "exploration_item-7_list_5": "Detection and environmental assessment of landfills.",
+    "exploration_item-7_list_6": "Mapping the permeability of future landfills sites.",
 
-        },
-        "item-6":{
-            "title":"Chemostratigraphy",
-            "img-text":"",
-            "text":{
-                "p1":"",
-                "p2":""
-            }
+    "petromineros": "Services for the oil and mining industry",
+    "mining_item-1_title": "Chemostratigraphy",
+    "mining_item-1_p1": "Through sample analysis by X-Ray fluorescence spectrometry, the quantification of majority, minority and trace elements takes place.",
+    "mining_item-1_p2": "Uses:",
+    "mining_item-1_list_1": "Detailed correlation between wells and outcrops",
+    "mining_item-1_list_2": "Identification of chemolithologies",
+    "mining_item-1_list_3": "Petrophysical characterization of the reservoir",
+    "mining_item-1_list_4": "Geochemical modeling",
+    "mining_item-1_list_5": "Geosteering",
+    "mining_item-1_list_6": "3D modeling of relative fragility",
 
-        }
-    }
-   },
-   "environmental":{
-    "title": "Services for the oil and mining industry",
-    "items":{
-        "item-1":{
-            "title":"Chemostratigraphy",
-            "img-text":"",
-            "text":{
-                "p1":"",
-                "p2":""
-            }
+    "mining_item-2_title": "Oil geochemistry",
+    "mining_item-2_p1": "In hydrocarbons industry, the information given by organic geochemistry is determinant for the decision taking and the definition and modeling of oil systems.",
+    "mining_item-2_list_1": "Geochemical characterization of parent rock through Rock-Eval pyrolysis and analysis of biomarkers.",
+    "mining_item-2_list_2": "Raw- raw and raw-parent rock correlation through fingerprints of biomarkers.",
+    "mining_item-2_list_3": "Geochemical modeling of the oil system from the integration of geochemical as well as geological and geophysical data.",
 
-        },
-        "item-2":{
-            "title":"Chemostratigraphy",
-            "img-text":"",
-            "text":{
-                "p1":"",
-                "p2":""
-            }
+    "mining_item-3_title": "Remote sensing",
+    "mining_item-3_p1": "The use of remote sensing in a project of hydrocarbon exploration permits to obtain a great spatial coverage of areas to be measured and to generate integrated products in a Geographic Information System (GIS), ready for the client to use.",
+    "mining_item-3_p2": "The objectives to be determined include mineralogical and geochemical alterations, modifications in the vegetation, determination of structures and conventional geological mapping. The information is usually generated in the first stages of an exploratory project, and it complements the traditional surface exploration techniques.",
 
-        },
-        "item-3":{
-            "title":"Chemostratigraphy",
-            "img-text":"",
-            "text":{
-                "p1":"",
-                "p2":""
-            }
+    "mining_item-4_title": "Molecular detection of sulfate-reducing bacteria",
+    "mining_item-4_p1": "Sulfate-reducing bacteria use the sulfate under anaerobic conditions, taking the oxygen for their breathing and generating hydrogen sulfur as sub-product. This hydrogen sulfur becomes an important corrosion risk factor in pipes and installations of the oil industry.",
+    "mining_item-4_p2": "DTP Laboratorios offers a proprietary solution that permits to generate authoritative fast and useful information to take decisions in the eradication of these bacteria. DTP Laboratorios has developed the detection quantification through techniques of molecular biology, exceeding the traditional techniques and permitting to manage and prevent risks in appropriate times.",
 
-        },
-        "item-4":{
-            "title":"Chemostratigraphy",
-            "img-text":"",
-            "text":{
-                "p1":"",
-                "p2":""
-            }
+    "mining_item-5_title": "Geothermal prospects",
+    "mining_item-5_p1": "In DTP Laboratorios we realize geochemical exploration for the study of geothermal fields. This includes sampling and measuring of chemical and isotopic compositions in liquids, gases and solids, chemical and isotopic geothermometry, geochemical modeling and assessment of prospect potential.",
 
-        },
-        "item-5":{
-            "title":"Chemostratigraphy",
-            "img-text":"",
-            "text":{
-                "p1":"",
-                "p2":""
-            }
+    "mining_item-6_title": "Surface flow of gases detection",
+    "mining_item-6_img-text": "(Fault zone detected through high surface flow of gases)",
+    "mining_item-6_p1": "Active faults are typically characterized by flow of gases anomalies associated to migration of geogenic gases (for example, radon, helium hydrogen, mercury compounds and carbon dioxide) through preferential migration pathways. This way, active structures can be designed in areas of interest permitting the location of the faults in regions where conventional information is poor of difficult to get.",
 
-        }
-      }
-   },
-   "contact":{
-       "title":"CONTACT US",
-       "form":{
-            "name":"Name and Surname",
-            "e-mail":"E-mail address",
-            "message":"Write your message here",
-            "button":"Send"
-       }
-   }
+    "ambientales": "Services for the oil and mining industry",
+    "environmental_item-1_title": "Air quality",
+    "environmental_item-1_p1": "Air Quality Monitoring Station (AQMS) is a mobile cabin with state-of- the-art equipment, specifically designed for the continuous monitoring of air quality.",
+    "environmental_item-1_p2": "Easy for relocation and emplacement, AQMS allows us to monitor air quality in diverse geographical areas, in the city as well as in hard-to- reach locations.",
+    "environmental_item-1_p3": "AQMS is equipped with a complete weather station, specific detectors of nitrogen compounds, methane and non-methane hydrocarbons, hydrogen sulfide, sulfur dioxide, carbon monoxide and particulate. DTP Laboratorios, on the other hand, monitors labor air quality on request.",
+
+    "environmental_item-2_title": "Work Environment",
+    "environmental_item-2_p1": "Workers on a daily basis are exposed to volatile organic compounds (VOCs and BTEX) that are found in suspension in the air and depending on their concentration can damage workers&#39; health.",
+    "environmental_item-2_p2": "ASTM 3686 norm gives us the sampling guidelines for the recollection of volatile organic substances than will then be measured under ASTM 3687 norm. To achieve major sensitivity a chromatograph with mass detector is used.",
+
+    "environmental_item-3_title": "Biodegradability and bioresistance assays",
+    "environmental_item-3_p1": "Exposing substances of interest to a battery of biological assays permits to predict the behavior of this substance when released in the environment.",
+    "environmental_item-3_p2": "In DTP Laboratorios we have the experience and the facilities to be able to evaluate substances of interest in environmental assays. Such assays include the evaluation of biodegradability in front of a bacterial inoculum or, otherwise, establish the effects of the substance on animal consortia in suspension.",
+
+    "environmental_item-4_title": "Molecular detection of bacteria",
+    "environmental_item-4_p1": "Counting on tools of molecular biology allows us to realize a substantially more certain, faster and more resounding detection and quantification of microorganisms than the traditional form, making use of cultures.",
+    "environmental_item-4_p2": "In DTP Laboratorios we count on the option of realizing qPCR + DGGE and R+D at the customer&#39;s service.",
+    "environmental_item-4_p3": "We count on the possibility of customizing our targets, characterize them molecularly and realize a confrontation with worldwide databases, to have specific information about them, to reach our client&#39;s needs.",
+
+    "environmental_item-5_title": "Ecotoxicity",
+    "environmental_item-5_p1": "Being able to predict the effects of pollution of certain substances on living beings, is of sum importance to be able to prevent or solve them with appropriate and effective actions.",
+    "environmental_item-5_p2": "The ecotoxicological evaluation consists of assays in which the confrontation of the substance of interest to water fleas cultures (Daphniapulex), lettuce plants (Latuca sativa) or earthworms (Eiseniaandrei) is evaluated depending on the objective.",
    
- }
+
+    "contact_title": "CONTACT US",
+    "contact_form_name": "Name and Surname",
+    "contact_form_email": "E-mail address",
+    "contact_form_message": "Write your message here",
+    "contact_form_button": "Send"
+}

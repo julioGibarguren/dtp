@@ -51,16 +51,22 @@
                                 <ul class="nav navbar-nav navbar-right">
                                         <li class="nav-item dropdown">
                                                 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">es</a>
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <img id="flag_main" src="img/flag-es.jpg" alt="">
+                                                    <span id="lang_indicator">es</span>
+                                                </a>
                                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                                     <a class="dropdown-item" class="lang-button" data-lang="es" id="btn-es">
                                                         <img src="img/flag-es.jpg" alt="spanish" />
+                                                        Español
                                                     </a>
                                                     <a class="dropdown-item" class="lang-button" data-lang="en" id="btn-en">
                                                         <img src="img/flag-en.jpg" alt="english" />
+                                                        English
                                                     </a>
                                                     <a class="dropdown-item" class="lang-button" data-lang="pt" id="btn-pt">
                                                         <img src="img/flag-pt.jpg" alt="portugues" />
+                                                        Portugues
                                                     </a>
                                                 </div>
                                             </li>
@@ -123,18 +129,18 @@
     <div class="main-comtainer">
         <section class="main-section services" id="services" style="border-bottom: 1px dashed #cccccc;">
             <div class="row">
-                <h3>Servicios</h3>
+                <h3 class="translate" id="home_services_title">Servicios</h3>
                 <div class="col-md-4">
                     <a class="explore" href="exploracion-de-superficie.html#surface-explore"></a>
-                    <h4>Exploración de superficie de gas y petróleo</h4>
+                    <h4 class="translate" id="home_services_exploration">Exploración de superficie de gas y petróleo</h4>
                 </div>
                 <div class="col-md-4">
                     <a class="petro" href="servicios-petromineros.html#petromineros"></a>
-                    <h4>Servicios para la industria del petróleo y minería</h4>
+                    <h4 class="translate" id="home_services_mining">Servicios para la industria del petróleo y minería</h4>
                 </div>
                 <div class="col-md-4">
                     <a class="ambiente" href="analisis-y-servicios-ambientales.html#ambientales"></a>
-                    <h4>Análisis y servicios ambientales</h4>
+                    <h4 class="translate" id="home_services_enviroment">Análisis y servicios ambientales</h4>
                 </div>
                 <div class="col-md-12" style "clear:both;"></div>
             </div>
@@ -144,24 +150,24 @@
 
         <section class=" main-section services" id="sobreNosotros">
             <div class="row">
-                <h3>Sobre nosotros</h3>
+                <h3 class="translate" id="home_about_title">Sobre nosotros</h3> 
                 <div class="col-md-12">
                     <div class="col-md-6">
-                        <p>DTP es una consultora ubicada en la Ciudad Autónoma de Buenos Aires, Argentina, que opera en toda
+                        <p class="translate" id="home_about_text_1">DTP es una consultora ubicada en la Ciudad Autónoma de Buenos Aires, Argentina, que opera en toda
                             Sudamérica. Nuestra empresa está integrada por un equipo interdisciplinario de profesionales
                             de amplia trayectoria integrado por geólogos, geoquímicos, biólogos, químicos y bioquímicos especializados
                             en la Industria del petróleo y minería. </p>
 
                     </div>
                     <div class="col-md-6">
-                        <p> DTP se ha centrado especialmente en la detección de niveles traza de elementos e hidrocarburos para
+                        <p class="translate" id="home_about_text_2"> DTP se ha centrado especialmente en la detección de niveles traza de elementos e hidrocarburos para
                             la realización de Estudios Geoquímicos y Ambientales, desarrollando técnicas propias de alta
                             eficiencia donde se conjugan análisis químicos y microbiológicos.</p>
                         </p>
                     </div>
                 </div>
                 <div class="col-md-12" style="clear:both;margin-top:30px;">
-                    <a class="btn btn-primary" href="nosotros.html">Nuestra visión</a>
+                    <a class="btn btn-primary translate" id="home_about_button_text" href="nosotros.html">Nuestra visión</a>
                 </div>
 
 
@@ -174,10 +180,10 @@
 
         <section class="video-container">
             <div class="video-responsive">
-                <a href="deteccion-molecular-de-bacterias.html">
+                <!--<a href="deteccion-molecular-de-bacterias.html">
                     <i class="fa fa-plus-circle fa-2x" aria-hidden="true"></i>
                     <span id="video">Nuevas tecnologías en detección de bacterias</span>
-                </a>
+                </a>-->
                 <video width="100%" height="500px" poster="img/presentation.jpg" controls>
                     <source src="img/DTP-2-8.mp4" type="video/mp4"> Your browser does not support the video tag.
                 </video>
@@ -248,7 +254,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/4fc6e77c9f.js"></script>
-    <script src="js/multilang.js"></script>
+    <script src="js/multilang_script.js"></script>
     <script src="js/script.js"></script>
 
 </body>

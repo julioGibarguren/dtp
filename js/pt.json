@@ -1,85 +1,136 @@
 {
-       "title":"oi",
-       "home":{
-           "services":{
-               "title":"SERVICES",
-               "buttons":{
-                    "exploration":"Oil and gas surface exploration",
-                    "mining":"Services for the oil and mining industry",
-                    "enviroment":"Environmental analysis and services"
-               }  
-           },
-           "about":{
-                "title":"ABOUT US",
-                "text":{
-                    "1":"DTP is a consulting firm located in Ciudad Autónoma de Buenos Aires, Argentina, operating in all South America. Our company consists of an interdisciplinary team with wide experience such as geologists, geochemists, biologists, chemists and biochemists specialized in the oil and mining industry.",
-                    "2":"DTP has focused specially on trace-level detection of elements and hydrocarbons for the realization of Geochemical and Environmental Studies, developing proprietary high-efficiency techniques in which chemical and microbiological analysis are combined."
-                },
-                "buttons":{
-                    "text":"Our Vision"
-                }
-           }
-       },
-       "about":{
-           "mission":{
-               "title": "MISSION",
-               "p": "To offer a service of excellence based on leading-edge technologies and efficient and economically profitable techniques in order to greatly reduce the exploratory risk and the environmental impact."
-           },
-           "vision":{
-               "title":"VISION",
-               "p":"To become our clients&#39; strategic ally par excellence."
-           },
-            "values":{
-                "title":"OUR VALUES AND COMMITMENTS",
-                "company":{
-                    "title": "IN THE COMPANY:",
-                    "items":{
-                        "1": "Lead by example.",
-                        "2": "Work in teams.",
-                        "3": "Show respect and concern for people.",
-                        "4": "Positive attitude",
-                        "5": "Quality and excellence in results.",
-                        "6": "Constant innovation.",
-                        "7": "Integrity"
-                    }  
-                },
-                "client": {
-                    "title": "FOR THE CLIENT:",
-                    "items":{
-                        "1": "Satisfy the client’s requirements.",
-                        "2": "Give objective and reliable information.",
-                        "3": "Honest and open communication.",
-                        "4": "Commitment to results.",
-                        "5": "Confidentiality."
-                    }  
-                },
-                "society":{
-                    "title":"FOR SOCIETY:",
-                    "items":{
-                        "1": "Community engagement.",
-                        "2": "Social responsibility."
-                    } 
-                }   
-            } 
-       },
-       "exploration":{
+    "title": "hello",
+    "home_services_title": "SERVIÇOS",
+    "home_services_exploration": "Exploração de superfície de gás e petróleo",
+    "home_services_mining": "Serviços para a indústria do petróleo e mineração",
+    "home_services_enviroment": "Análise e serviços ambientais",
+    "home_about_title": "ACERCA DE NÓS",
+    "home_about_text_1": "DTP é uma consultora localizada na Cidade Autônoma de Buenos Aires, Argentina, que opera na América do Sul inteira. Nossa empresa é integrada por uma equipe interdisciplinar de profissionais de ampla trajetória integrada por geólogos, geoquímicos, biólogos, químicos e bioquímicos especializados na Indústria do petróleo e mineração.",
+    "home_about_text_2": "A DTP tem se dedicado especialmente à detecção de níveis traços de elementos e hidrocarbonetos para a realização de Pesquisas Geoquímicas e Ambientais, desenvolvendo técnicas próprias de alta eficiência, que conjugam análises químicas e microbiológicas.",
+    "home_about_button_text": "Nossa Visão",
     
-       },
-       "mining":{
-    
-       },
-       "environmental":{
-    
-       },
-       "contact":{
-           "title":"Entre em contato conosco",
+    "about_mission_title": "MISSÃO",
+    "about_mission_p": "Oferecer um serviço de excelência, baseado em tecnologias de ponta e técnicas eficientes e economicamente rentáveis, a fim de reduzir amplamente o risco exploratório e o impacto ambiental.",
+    "about_vision_title": "VISÃO",
+    "about_vision_p": "Tornarmo-nos o parceiro estratégico por excelência de nossos clientes.",
+    "about_values_title": "NOSSOS VALORES E COMPROMISSOS",
+    "about_values_company_title": "NA EMPRESA:",
+    "about_values_company_item_1": "Liderar com o exemplo.",
+    "about_values_company_item_2": "Trabalhar em equipe.",
+    "about_values_company_item_3": "Respeito e interesse pelas pessoas.",
+    "about_values_company_item_4": "Atitude positiva.",
+    "about_values_company_item_5": "Qualidade e excelência nos resultados.",
+    "about_values_company_item_6": "Inovação permanente.",
+    "about_values_company_item_7": "Integridade.",
+    "about_values_client_title": "PARA O CLIENTE:",
+    "about_values_client_item_1": "Satisfazer seus requerimentos.",
+    "about_values_client_item_2": "Fornecer informação objetiva e confiável.",
+    "about_values_client_item_3": "Comunicar-nos aberta e honestamente.",
+    "about_values_client_item_4": "Compromisso com os resultados.",
+    "about_values_client_item_5": "Confidencialidade.",
+    "about_values_society_title": "PARA A SOCIEDADE:",
+    "about_values_society_item_1": "Compromisso com a comunidade.",
+    "about_values_society_item_2": "Responsabilidade social.",
 
-           "form":{
-                "name":"Nome e sobrenome",
-                "e-mail":"Seu e-mail",
-                "message":"Escreva aqui sua mensagem",
-                "button":"Enviar"
-           }
-       }
-       
-     }
+    "surface-explore": "Exploração de superfície de gás e petróleo",
+    "exploration_item-1_title": "Marco Conceitual:",
+    "exploration_item-1_img-text": "Anomalia microbiana, Migração de hidrocarbonetos leves, Hidrocarbonetos",
+    "exploration_item-1_p1": "A partir de uma acumulação de hidrocarbonetos, produz-se a migração da parte gasosa dos mesmos, do reservatório até a superfície. Tal fenômeno pode ser registrado através de evidências diretas (a concentração de gases adsorvidos ou ocluídos em minerais) ou indiretas (por exemplo, o crescimento de colônias bacterianas capazes de degradar hidrocarbonetos).",
+    "exploration_item-1_p2": "Ainda que a migração dos hidrocarbonetos seja usualmente vertical desde a acumulação, os gases também podem aproveitar vias preferenciais de migração como falhas ou fraturas. O reconhecimento de um ou outro fenômeno é um dos fatores chaves na interpretação da informação em geoquímica de superfície.",
+    "exploration_item-1_p3": "DTP Laboratorios foi pioneiro em desenvolver tecnologias próprias para definir as anomalias geoquímicas associadas às acumulações de hidrocarbonetos. Nosso trabalho é determinar a existência de sistemas ativos, através da análise da informação biogeoquímica (colônias de bactérias degradadoras de hidrocarbonetos) e a composição da fonte dos hidrocarbonetos migrados, através da análise dos gases adsorvidos/ocluídos.",
+    "exploration_item-1_p4": "Além disso, a DTP Laboratorios tem desenvolvido nos últimos anos um método de etecção e quantificação de comunidades microbiológicas de avançada tecnologia, mediante DNA, que permite superar as limitações do método microbiológico convencional. Nosso método tem a vantagem de quantificar todo o DNA presente na amostra, proporcional à quantidade de micróbios com capacidade de degradar hidrocarbonetos, que guarda relação com o fluxo de hidrocarbonetos leves em superfície.",
+
+    "exploration_item-2_title": "Gases adsorvidos",
+    "exploration_item-2_p1": "A análise de gases adsorvidos/ocluídos é uma técnica tradicional de exploração geoquímica de superfície. A expressão superficial permite discriminar o tipo de hidrocarbonetos presentes no subsolo.",
+    "exploration_item-2_p2": "DTP Laboratorios é o único laboratório na América Latina que emprega uma técnica própria e de qualidade comprovada para a determinação dos hidrocarbonetos leves em solo, empregando cromatografia gasosa com detector FID. As análises quantificam de metano a pentano, com precisão.",
+
+    "exploration_item-3_title": "Bioquímica de superfície",
+    "exploration_item-3_p1": "A biogeoquímica de superfície é baseada no crescimento preferencial de colônias microbianas degradadoras de hidrocarbonetos em áreas onde existem microfugas associadas com acumulações de hidrocarbonetos. Os mapas de anomalias microbianas constituem a principal ferramenta prospectiva, pois nos permitem determinar se estamos em presença de um sistema ativo ou não.",
+    "exploration_item-3_p2": "Dado que a escala temporal da resposta abrange intervalos de tempo de meses a anos, é possível se acompanhar os processos produtivos e a despressurização dos reservatórios à medida que eles são explorados.",
+
+    "exploration_item-4_title": "Gases livres",
+    "exploration_item-4_p1": "A análise de gases livres em solo é uma técnica ambientalmente amigável que permite a avaliação in situ com equipamentos portáteis e em tempo real. A técnica pode ser empregada tanto para exploração geoquímica quanto para pesquisas ambientais.",
+    "exploration_item-4_p2": "A pesquisa de gases livres permite determinar anomalias e avaliar estruturas (caso do hélio, radônio, tório, dióxido de carbono e hidrocarbonetos) em setores onde a exploração geoquímica e sísmica convencional não oferece respostas adequadas.",
+    "exploration_item-4_p3": "Em Meio Ambiente, a amostragem de gás em solo é uma ferramenta que se utiliza para caracterizar e avaliar a distribuição de compostos químicos potencialmente tóxicos em solo e água subterrânea e monitorar as ações de remediação. Nesse caso, é possível se determinar as concentrações de hidrocarbonetos, dióxido de carbono, monóxido de carbono, sulfeto de hidrogênio, oxigênio e compostos orgânicos voláteis.",
+    "exploration_item-4_p4": "A determinação de áreas impactadas por vazamentos de hidrocarbonetos mediante métodos indiretos permite delimitar com uma mínima invasão sua localização e estágio evolutivo. As pesquisas se complementam com radar de penetração no solo (GPR).",
+
+    "exploration_item-5_title": "Isótopos aplicados à exploração geoquímica",
+    "exploration_item-5_p1": "A análise da composição isotópica dos hidrocarbonetos leves em solo permite comparar os resultados com os modelos teóricos de evolução. Sob condições particulares, a tecnologia desenvolvida pela DTP Laboratorios permite, em conjunto com a informação geoquímica convencional, identificar as rochas geradoras ativas na área, reconhecer tipos de querogênio, realizar mapas de maturidade da(s) rochas geradoras, gerar mapas da idade de geração da(s) rochas geradoras.",
+    "exploration_item-5_p2": "Além do mais, é possível se estimar a relação gás/líquido no prospecto, quantidade teórica de hidrocarbonetos gerada, profundidade da fonte, tempo de formação/expulsão/migração e os potenciais aportes de gás bacteriano.",
+
+    "exploration_item-6_title": "Sensores remotos",
+    "exploration_item-6_p1": "A utilização de sensores remotos em um projeto de exploração de hidrocarbonetos permite obter uma grande cobertura espacial de áreas a serem relevadas e gerar produtos integrados em um Sistema de Informações Geográficas (GIS), prontos para a utilização do cliente.",
+    "exploration_item-6_p2": "Os objetivos a determinar incluem alterações mineralógicas e geoquímicas, modificações na vegetação, determinação de estruturas e mapeamento geológico convencional. A informação é usualmente gerada nos primeiros estágios de um projeto exploratório, e é complementar das técnicas de exploração de superfície tradicionais.",
+
+    "exploration_item-7_title": "GPR",
+    "exploration_item-7_p1": "O Georadar (GPR) é uma ferramenta de ampla aplicação em pesquisas de subsolo. A capacidade de ver através, debaixo e dentro de materiais sólidos utilizando técnicas não invasivas tem uma importante função em diversos campos onde pesquisas feitas da forma convencional requereriam a utilização de métodos destrutivos.",
+    "exploration_item-7_p2":"Aplicações:",
+    "exploration_item-7_list_1": "Localização de terrenos contaminados.",
+    "exploration_item-7_list_2": "Delimitação de fluidos contaminantes.",
+    "exploration_item-7_list_3": "Pesquisas de aquíferos e proteção de contaminação.",
+    "exploration_item-7_list_4": "Individualização de objetos e tanques enterrados.",
+    "exploration_item-7_list_5": "Detecção e avaliação ambiental de aterros de lixo.",
+    "exploration_item-7_list_6": "Mapeamento da permeabilidade dos locais de futuros aterros de lixo.",
+
+    "petromineros": "Serviços para a indústria do petróleo e mineração",
+    "mining_item-1_title": "Quimioestratigrafia",
+    "mining_item-1_p1": "Mediante a análise da amostra por espectrometria de fluorescência de raios X se realiza a quantificação dos elementos maioritários, minoritários e elementos traços.",
+    "mining_item-1_p2": "Aplicações:",
+    "mining_item-1_list_1": "Correlação detalhada entre poços e afloramentos.",
+    "mining_item-1_list_2": "Identificação de quimiolitologias.",
+    "mining_item-1_list_3": "Caracterização petrofísica de reservatório.",
+    "mining_item-1_list_4": "Modelagem geoquímica.",
+    "mining_item-1_list_5": "Geodirecionamento (Geosteering).",
+    "mining_item-1_list_6": "Modelagem 3D de fragilidade relativa.",
+
+    "mining_item-2_title": "Geoquímica do petróleo",
+    "mining_item-2_p1": "Na indústria de hidrocarbonetos, a informação fornecida pela geoquímica orgânica resulta determinante na tomada de decisões e na definição e modelagem dos sistemas petrolíferos.",
+    "mining_item-2_list_1": "Caracterização geoquímica de rocha geradora mediante pirolise Rock Eval e análise de biomarcadores.",
+    "mining_item-2_list_2": "Correlação óleo/óleo e óleo/rocha geradora mediante fingerprints de biomarcadores.",
+    "mining_item-2_list_3": "Modelagem geoquímica do sistema petrolífero a partir da integração de dados, tanto geoquímicos quanto geológicos e geofísicos.",
+
+    "mining_item-3_title": "Sensores remotos",
+    "mining_item-3_p1": "A utilização de sensores remotos em um projeto de exploração de hidrocarbonetos permite obter uma grande cobertura espacial de áreas a serem relevadas e gerar produtos integrados em um Sistema de Informações Geográficas (GIS), prontos para a utilização do cliente.",
+    "mining_item-3_p2": "Os objetivos a determinar incluem alterações mineralógicas e geoquímicas, modificações na vegetação, determinação de estruturas e mapeamento geológico convencional. A informação é usualmente gerada nos primeiros estágios de um projeto exploratório, e é complementar das técnicas de exploração de superfície tradicionais.",
+
+    "mining_item-4_title": "Detecção molecular de bactérias sulfatorredutoras",
+    "mining_item-4_p1": "As bactérias sulfatorredutoras utilizam o sulfato sob condições anaeróbicas, tomando o oxigênio para sua respiração e gerando sulfeto de hidrogênio como subproduto. O sulfeto de hidrogênio torna-se um importante fator de risco de corrosão em encanamentos e instalações da indústria petrolífera.",
+    "mining_item-4_p2": "DTP Laboratorios oferece uma solução própria que permite gerar informação fidedigna, rápida e útil para a tomada de decisões na erradicação destas bactérias. DTP Laboratorios desenvolveu a detecção e quantificação mediante técnicas de biologia molecular, superando as técnicas tradicionais e permitindo gerir e prevenir o risco no tempo certo.",
+
+    "mining_item-5_title": "Geotermia",
+    "mining_item-5_p1": "Na DTP Laboratorios realizamos a exploração geoquímica para a pesquisa de campos geotermais, que inclui a amostragem e medição de composições químicas e isotópicas em líquidos, gases e sólidos, geotermometria química e isotópica, modelagem geoquímica e cálculo da potencialidade do prospecto.",
+
+    "mining_item-6_title": "Detecção de fluxo superficial de gases",
+    "mining_item-6_img-text": "(Zona de falha detectada através de alto fluxo superficial de gases)",
+    "mining_item-6_p1": "As falhas ativas caracterizam-se habitualmente por anomalias de ﬂuxo de gases associadas à migração de gases geogênicos (por exemplo: radônio, hélio, hidrogênio compostos do mercúrio e dióxido de carbono) através de vias de migração preferenciais. Assim, é possível se traçar estruturas ativas em áreas de interesse permitindo a localização das falhas em áreas onde a informação convencional é pobre ou difícil de se obter.",
+
+    "ambientales": "Análise e serviços ambientais",
+    "environmental_item-1_title": "Qualidade do ar",
+    "environmental_item-1_p1": "A Estação de Medição de Qualidade do Ar (EMQA) é uma cabine móbil com equipamento de última geração, projetada especificamente para o monitoramento contínuo da qualidade do ar.",
+    "environmental_item-1_p2": "De fácil transporte e colocação, a EMQA nos permite monitorar a qualidade do ar em diversas áreas geográficas, tanto na cidade quanto em locais de difícil acesso.",
+    "environmental_item-1_p3": "AA EMQA está equipada com uma estação meteorológica completa detectores específicos de compostos do nitrogênio, hidrocarbonetos metano e não metano, sulfeto de hidrogênio, dióxido de enxofre, monóxido de carbono e material particulado. DTP Laboratorios também realiza monitoramentos de qualidade do ar no ambiente ocupacional, sob requerimento.",
+
+    "environmental_item-2_title": "Ambientes ocupacionais",
+    "environmental_item-2_p1": "No dia a dia, os trabalhadores encontram-se expostos a compostos orgânicos voláteis (VOCs e BTEX) que se acham em suspensão no ar e, dependendo de sua concentração, podem sofrer seus efeitos na saúde.",
+    "environmental_item-2_p2": "A norma ASTM 3686 fornece as diretrizes para amostragem, para a coleta das substâncias orgânicas voláteis que posteriormente serão medidas sob a norma ASTM 3687. Para se obter uma maior sensibilidade, é utilizado um cromatógrafo com detector de massas acoplado.",
+
+    "environmental_item-3_title": "Ensaios de biodegradabilidade e biorresistência",
+    "environmental_item-3_p1": "Expor substâncias de interesse a uma bateria de ensaios biológicos permite prever qual será o comportamento dessa substância quando ela se encontrar liberada no ambiente.",
+    "environmental_item-3_p2": "Na DTP Laboratorios contamos com experiência e instalações para podermos avaliar substâncias de interesse em ensaios ambientais. Tais ensaios compreendem a avaliação de biodegradabilidade ante um inóculo bacteriano ou, pelo contrário, estabelecer os efeitos da substância sobre os consórcios animais em suspensão.",
+
+    "environmental_item-4_title": "Detecção molecular de bactérias",
+    "environmental_item-4_p1": "CContar com ferramentas de biologia molecular nos permite realizar uma detecção e quantificação de micro-organismos substancialmente mais certeira, rápida e contundente que da forma tradicional, utilizando cultivos.",
+    "environmental_item-4_p2": "DTP Laboratorios conta com a opção de realizar PCR em tempo real (qPCR) + DGGE e P&amp;D a serviço do cliente.",
+    "environmental_item-4_p3": "Contamos com a possibilidade de determinar nossos alvos à medida, caracterizá-los molecularmente e conferir bases de dados mundiais, a fim de obter informação específica das mesmas, adaptando-nos às necessidades do cliente.",
+
+    "environmental_item-5_title": "Ecotoxicidade",
+    "environmental_item-5_p1": "Poder prever os efeitos da contaminação de certas substâncias sobre os seres vivos é de suma importância para ter a possibilidade de prevenir ou remediar com ações acordes e efetivas.",
+    "environmental_item-5_p2": "A avaliação ecotoxicológica consiste em ensaios onde o contato da substância de interesse com cultivos de pulgas d’água (Daphnia pulex), pés de alface (Latuca sativa) ou minhocas da espécie Eisenia andrei é avaliado dependendo do objetivo.",
+   
+
+    "contact_title": "Entre em contato conosco",
+    "contact_form_name": "Nome e sobrenome",
+    "contact_form_email": "Seu e-mail",
+    "contact_form_message": "Escreva aqui sua mensagem",
+    "contact_form_button": "Enviar"
+}

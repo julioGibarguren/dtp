@@ -48,17 +48,24 @@ var UIController = (function(){
     
     function setNavLang(newlang){
         console.log('entra')
-        var navMenu, html, init, about, services, contact, navbar;
+        var navMenu, html, init, about, services, contact, navbar, mainFlagImg, mainFlagText, flagUrl;
         
         navbar = '<li><a class="inicioBtn" href="index.html">%home%</a></li><li><a class="aboutBtn" href="index.html#sobreNosotros">%about%</a></li><li><a class="servicesBtn" href="index.html#services">%services%</a></li><li><a class="contactBtn" href="contacto.html">%contact%</a></li>';
         navMenu = document.querySelector(DOMstrings.navbarRight);
+        mainFlagImg = document.getElementById('flag_main');
+        mainFlagText = document.getElementById('lang_indicator');
+        flagUrl = 'img/flag-' + newlang + '.jpg';
         html = navbar;
+        document.getElementById('flag_main').setAttribute('src', flagUrl);
+
+        document.getElementById('lang_indicator').textContent = newlang;
 
         if(newlang === 'es'){  
            init = 'INICIO';
            about = 'SOBRE NOSOTROS';
            services = 'SERVICIOS';
            contact = 'CONTACTO';
+           
 
         } else if(newlang === 'en'){
             init = 'HOME';
@@ -68,10 +75,10 @@ var UIController = (function(){
            
 
         } else if(newlang === 'pt'){
-            init = 'HOME';
-            about = 'ABOUT US';
-            services = 'SERVICES';
-            contact = 'CONTACT';
+            init = 'INÍCIO';
+            about = 'ACERCA DE NÓS';
+            services = 'SERVIÇOS';
+            contact = 'CONTATO';
         }
 
         newHtml = html.replace('%home%', init);
@@ -82,59 +89,55 @@ var UIController = (function(){
        
         document.querySelector(DOMstrings.navbarRight).innerHTML = newHtml;
         createCookie('lang', newlang, 30);
-    }
-    function replaceText(data){
-        console.log(data)
-    }
-      function replaceText(data){
-        var currentLocation = window.location.pathname;
-        var URLdomain = window.location.host;
-        var currentUrl = URLdomain + currentLocation;
         
-        console.log(currentLocation)
-
-        if(currentLocation === '/' || currentLocation === '/index.html'){
-           console.log('home')
-        } else if (currentLocation === '/nosotros.html'){
-            console.log('nosotros')
-        } else if(currentLocation === '/contacto.html'){
-            console.log('contacto')
-        } else if(currentLocation === '/exploracion-de-superficie.html'){
-            console.log('exploracion')
-        } else if(currentLocation === '/servicios-petromineros.html'){
-            console.log('petromineros')
-        } else if( currentLocation === '/deteccion-molecular-de-bacterias.html'){
-            console.log('bacterias')
-        } else if(currentLocation === '/analisis-y-servicios-ambientales.html'){
-            console.log('ambientales')
-        }else{
-            console.log('no registered url')
-        }
-
-        // var translates = document.querySelectorAll('.translate');
-        
-        // for(var i = 0; i < translates.length; i++){
-        //     // console.log(translates[i]);
-        //     var a = translates[i].id;
-        //     console.log(a)
-           
-           
-        //     // document.getElementById(translates[i].id).textContent = data.a
-        // }
-
-
     }
+    
+    // function replaceText(data){
+    //     var translates = document.querySelectorAll('.translate');       
+    //     for(var i = 0; i < translates.length; i++){
+    //         console.log(translates[i]);
+    //         console.log(data.contact.title)
+    //         var a = translates[i].id;
+    //         var b = data + '.' + a;
+    //         console.log(b)      
+    //         document.getElementById(translates[i].id).textContent = b
+    //     }
+    // }
     function loadTranslateJson(){
         var cookieLang = readCookie('lang')
         var jsonUrl = '../js/' + cookieLang + '.json'
+
+        var currentLocation = window.location.pathname;
+        var URLdomain = window.location.host;
+        var currentUrl = URLdomain + currentLocation;
       
         getJSON(jsonUrl ,
-        function(err, data) {
+        function(err, data) { 
           if (err !== null) {
             alert('Something went wrong: ' + err);
           } else {
-            alert('Your title: ' + data.title);
-            replaceText(data)
+              if(cookieLang !== 'es'){
+                var translates = document.querySelectorAll('.translate');       
+                for(var i = 0; i < translates.length; i++){
+                    var a = translates[i].id;
+                    translates[i].innerHTML = data[a]
+                    
+                }
+                if(currentLocation === '/contacto.html'){
+                    var inputName = document.getElementById('contact_form_name').innerHTML;
+                    var inputEmail = document.getElementById('contact_form_email').innerHTML;
+                    var inputMessage = document.getElementById('contact_form_message').innerHTML;
+                    var inputSubmit = document.getElementById('contact_form_button').innerHTML;
+            
+                    document.getElementById('form_name').placeholder = inputName;
+                    document.getElementById('form_email').placeholder = inputEmail;
+                    document.getElementById('form_message').placeholder = inputMessage;
+                    document.getElementById('form_button').value = inputSubmit;
+                    
+            
+                    }
+              }
+            
           }
           
         }); 
@@ -148,23 +151,24 @@ var UIController = (function(){
                 newLang = 'es' 
                 console.log(newLang)
                 setNavLang(newLang);
-                loadTranslateJson()
-                
-            })
+                loadTranslateJson();
+                location.reload();
+            });
             document.getElementById('btn-en').addEventListener('click', function(){ 
                 newLang = 'en' 
                 console.log(newLang)
                 setNavLang(newLang);
-                loadTranslateJson()
-            })
+                loadTranslateJson();
+                location.reload();
+            });
             document.getElementById('btn-pt').addEventListener('click', function(){ 
                 newLang = 'pt' 
                 console.log(newLang)
                 setNavLang(newLang);
-                loadTranslateJson()
-            })
+                location.reload();
+            });
             setNavLang(newLang);
-            loadTranslateJson()
+            loadTranslateJson();
         }
     }
 })();
@@ -190,9 +194,9 @@ var translatorController = (function(){
 })();
 
 var siteController = (function(translatorCtrl, UICtrl){
+    
     var changeLang = function(){
        UICtrl.setNewLang();
-
        
     };
     return {
