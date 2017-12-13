@@ -2,7 +2,7 @@
     "title": "hello",
     "home_services_title": "SERVICES",
     "home_services_exploration": "Oil and gas surface exploration",
-    "home_services_mining": "Services for the oil and mining industry",
+    "home_services_mining": "Services for oil and mining industry",
     "home_services_enviroment": "Environmental analysis and services",
     "home_about_title": "About us",
     "home_about_text_1": "DTP is a consulting firm located in Ciudad Autónoma de Buenos Aires, Argentina, operating in all South America. Our company consists of an interdisciplinary team with wide experience such as geologists, geochemists, biologists, chemists and biochemists specialized in the oil and mining industry.",
@@ -72,7 +72,7 @@
     "exploration_item-7_list_5": "Detection and environmental assessment of landfills.",
     "exploration_item-7_list_6": "Mapping the permeability of future landfills sites.",
 
-    "petromineros": "Services for the oil and mining industry",
+    "petromineros": "Services for oil and mining industry",
     "mining_item-1_title": "Chemostratigraphy",
     "mining_item-1_p1": "Through sample analysis by X-Ray fluorescence spectrometry, the quantification of majority, minority and trace elements takes place.",
     "mining_item-1_p2": "Uses:",
@@ -104,7 +104,7 @@
     "mining_item-6_img-text": "(Fault zone detected through high surface flow of gases)",
     "mining_item-6_p1": "Active faults are typically characterized by flow of gases anomalies associated to migration of geogenic gases (for example, radon, helium hydrogen, mercury compounds and carbon dioxide) through preferential migration pathways. This way, active structures can be designed in areas of interest permitting the location of the faults in regions where conventional information is poor of difficult to get.",
 
-    "ambientales": "Services for the oil and mining industry",
+    "ambientales": "SEnvironmental analysis and services",
     "environmental_item-1_title": "Air quality",
     "environmental_item-1_p1": "Air Quality Monitoring Station (AQMS) is a mobile cabin with state-of- the-art equipment, specifically designed for the continuous monitoring of air quality.",
     "environmental_item-1_p2": "Easy for relocation and emplacement, AQMS allows us to monitor air quality in diverse geographical areas, in the city as well as in hard-to- reach locations.",
@@ -129,8 +129,9 @@
    
 
     "contact_title": "CONTACT US",
-    "contact_form_name": "Name and Surname",
+    "contact_form_name": "Name and surname",
     "contact_form_email": "E-mail address",
     "contact_form_message": "Write your message here",
-    "contact_form_button": "Send"
+    "contact_form_button": "Send",
+    "phone": "Phone"
 }

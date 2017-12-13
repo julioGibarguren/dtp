@@ -132,5 +132,6 @@
     "contact_form_name": "Nome e sobrenome",
     "contact_form_email": "Seu e-mail",
     "contact_form_message": "Escreva aqui sua mensagem",
-    "contact_form_button": "Enviar"
+    "contact_form_button": "Enviar",
+    "phone": "Telefone"
 }
